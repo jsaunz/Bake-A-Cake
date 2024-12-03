@@ -1,0 +1,3656 @@
+import turtle
+import random
+import time
+
+###########################################
+#  FINAL PROJECT WORKSPACE
+###########################################
+
+# Calling Cake Turtles
+
+def callcaketurtles():
+    global easy_b_vanillaturtle, easy_b_strbrryturtle, easy_b_chocoturtle, easy_b_redvelturtle, easy_b_carrotturtle
+    global medium_b_vanillaturtle, medium_b_strbrryturtle, medium_b_chocoturtle, medium_b_redvelturtle, medium_b_carrotturtle
+    global hard_b_vanillaturtle, hard_b_strbrryturtle, hard_b_chocoturtle, hard_b_redvelturtle, hard_b_carrotturtle
+    global medium_t2b_vanillaturtle, medium_t2b_strbrryturtle, medium_t2b_chocoturtle, medium_t2b_redvelturtle, medium_t2b_carrotturtle
+    global hard_t2b_vanillaturtle, hard_t2b_strbrryturtle, hard_t2b_chocoturtle, hard_t2b_redvelturtle, hard_t2b_carrotturtle
+    global hard_t3b_vanillaturtle, hard_t3b_strbrryturtle, hard_t3b_chocoturtle, hard_t3b_redvelturtle, hard_t3b_carrotturtle
+
+    global easy_f_vanillaturtle, easy_f_strbrryturtle, easy_f_chocoturtle, easy_f_pistachturtle
+    global medium_f_vanillaturtle, medium_f_strbrryturtle, medium_f_chocoturtle, medium_f_pistachturtle
+    global hard_f_vanillaturtle, hard_f_strbrryturtle, hard_f_chocoturtle, hard_f_pistachturtle
+
+    global easy_t_rainbowsprturtle, easy_t_chocochipsturtle, easy_t_strbrryturtle, easy_t_blubrryturtle
+    global medium_t_rainbowsprturtle, medium_t_chocochipsturtle, medium_t_strbrryturtle, medium_t_blubrryturtle
+    global hard_t_rainbowsprturtle, hard_t_chocochipsturtle, hard_t_strbrryturtle, hard_t_blubrryturtle
+
+    easy_b_vanillaturtle = turtle.Turtle()
+    easy_b_strbrryturtle = turtle.Turtle()
+    easy_b_chocoturtle = turtle.Turtle()
+    easy_b_redvelturtle = turtle.Turtle()
+    easy_b_carrotturtle = turtle.Turtle()
+
+    medium_b_vanillaturtle = turtle.Turtle()
+    medium_b_strbrryturtle = turtle.Turtle()
+    medium_b_chocoturtle = turtle.Turtle()
+    medium_b_redvelturtle = turtle.Turtle()
+    medium_b_carrotturtle = turtle.Turtle()
+
+    hard_b_vanillaturtle = turtle.Turtle()
+    hard_b_strbrryturtle = turtle.Turtle()
+    hard_b_chocoturtle = turtle.Turtle()
+    hard_b_redvelturtle = turtle.Turtle()
+    hard_b_carrotturtle = turtle.Turtle()
+
+    medium_t2b_vanillaturtle = turtle.Turtle()
+    medium_t2b_strbrryturtle = turtle.Turtle()
+    medium_t2b_chocoturtle = turtle.Turtle()
+    medium_t2b_redvelturtle = turtle.Turtle()
+    medium_t2b_carrotturtle = turtle.Turtle()
+
+    hard_t2b_vanillaturtle = turtle.Turtle()
+    hard_t2b_strbrryturtle = turtle.Turtle()
+    hard_t2b_chocoturtle = turtle.Turtle()
+    hard_t2b_redvelturtle = turtle.Turtle()
+    hard_t2b_carrotturtle = turtle.Turtle()
+
+    hard_t3b_vanillaturtle = turtle.Turtle()
+    hard_t3b_strbrryturtle = turtle.Turtle()
+    hard_t3b_chocoturtle = turtle.Turtle()
+    hard_t3b_redvelturtle = turtle.Turtle()
+    hard_t3b_carrotturtle = turtle.Turtle()
+
+    easy_f_vanillaturtle = turtle.Turtle()
+    easy_f_strbrryturtle = turtle.Turtle()
+    easy_f_chocoturtle = turtle.Turtle()
+    easy_f_pistachturtle = turtle.Turtle()
+
+    medium_f_vanillaturtle = turtle.Turtle()
+    medium_f_strbrryturtle = turtle.Turtle()
+    medium_f_chocoturtle = turtle.Turtle()
+    medium_f_pistachturtle = turtle.Turtle()
+
+    hard_f_vanillaturtle = turtle.Turtle()
+    hard_f_strbrryturtle = turtle.Turtle()
+    hard_f_chocoturtle = turtle.Turtle()
+    hard_f_pistachturtle = turtle.Turtle()
+
+    easy_t_rainbowsprturtle = turtle.Turtle()
+    easy_t_chocochipsturtle = turtle.Turtle()
+    easy_t_strbrryturtle = turtle.Turtle()
+    easy_t_blubrryturtle = turtle.Turtle()
+
+    medium_t_rainbowsprturtle = turtle.Turtle()
+    medium_t_chocochipsturtle = turtle.Turtle()
+    medium_t_strbrryturtle = turtle.Turtle()
+    medium_t_blubrryturtle = turtle.Turtle()
+
+    hard_t_rainbowsprturtle = turtle.Turtle()
+    hard_t_chocochipsturtle = turtle.Turtle()
+    hard_t_strbrryturtle = turtle.Turtle()
+    hard_t_blubrryturtle = turtle.Turtle()
+
+    easy_b_vanillaturtle.hideturtle()
+    easy_b_strbrryturtle.hideturtle()
+    easy_b_chocoturtle.hideturtle()
+    easy_b_redvelturtle.hideturtle()
+    easy_b_carrotturtle.hideturtle()
+
+    medium_b_vanillaturtle.hideturtle()
+    medium_b_strbrryturtle.hideturtle()
+    medium_b_chocoturtle.hideturtle()
+    medium_b_redvelturtle.hideturtle()
+    medium_b_carrotturtle.hideturtle()
+
+    hard_b_vanillaturtle.hideturtle()
+    hard_b_strbrryturtle.hideturtle()
+    hard_b_chocoturtle.hideturtle()
+    hard_b_redvelturtle.hideturtle()
+    hard_b_carrotturtle.hideturtle()
+
+    medium_t2b_vanillaturtle.hideturtle()
+    medium_t2b_strbrryturtle.hideturtle()
+    medium_t2b_chocoturtle.hideturtle()
+    medium_t2b_redvelturtle.hideturtle()
+    medium_t2b_carrotturtle.hideturtle()
+
+    hard_t2b_vanillaturtle.hideturtle()
+    hard_t2b_strbrryturtle.hideturtle()
+    hard_t2b_chocoturtle.hideturtle()
+    hard_t2b_redvelturtle.hideturtle()
+    hard_t2b_carrotturtle.hideturtle()
+
+
+    hard_t3b_vanillaturtle.hideturtle()
+    hard_t3b_strbrryturtle.hideturtle()
+    hard_t3b_chocoturtle.hideturtle()
+    hard_t3b_redvelturtle.hideturtle()
+    hard_t3b_carrotturtle.hideturtle()
+
+    easy_f_vanillaturtle = turtle.Turtle()
+    easy_f_strbrryturtle = turtle.Turtle()
+    easy_f_chocoturtle = turtle.Turtle()
+    easy_f_pistachturtle = turtle.Turtle()
+
+    medium_f_vanillaturtle = turtle.Turtle()
+    medium_f_strbrryturtle = turtle.Turtle()
+    medium_f_chocoturtle = turtle.Turtle()
+    medium_f_pistachturtle = turtle.Turtle()
+
+    hard_f_vanillaturtle = turtle.Turtle()
+    hard_f_strbrryturtle = turtle.Turtle()
+    hard_f_chocoturtle = turtle.Turtle()
+    hard_f_pistachturtle = turtle.Turtle()
+
+    easy_t_rainbowsprturtle = turtle.Turtle()
+    easy_t_chocochipsturtle = turtle.Turtle()
+    easy_t_strbrryturtle = turtle.Turtle()
+    easy_t_blubrryturtle = turtle.Turtle()
+
+    medium_t_rainbowsprturtle = turtle.Turtle()
+    medium_t_chocochipsturtle = turtle.Turtle()
+    medium_t_strbrryturtle = turtle.Turtle()
+    medium_t_blubrryturtle = turtle.Turtle()
+
+    hard_t_rainbowsprturtle = turtle.Turtle()
+    hard_t_chocochipsturtle = turtle.Turtle()
+    hard_t_strbrryturtle = turtle.Turtle()
+    hard_t_blubrryturtle = turtle.Turtle()
+
+callcaketurtles()
+
+# Setting up Randomization Functions
+
+def easy_randombatter_tier1():
+    global easy_batter_goal
+    batterlist = ["b_vanilla", "b_strbrry", "b_choco", "b_redvel", "b_carrot"]
+    randomindex = random.randint(0,4)
+    easy_batter_goal = batterlist[randomindex]
+    if easy_batter_goal == "b_vanilla":
+        easy_b_vanillaturtle = turtle.Turtle()
+        turtle.addshape("vanillabatter.gif")
+        easy_b_vanillaturtle.shape("vanillabatter.gif")
+    elif easy_batter_goal == "b_strbrry":
+        easy_b_strbrryturtle = turtle.Turtle()
+        turtle.addshape("strwbrrybatter.gif")
+        easy_b_strbrryturtle.shape("strwbrrybatter.gif")
+    elif easy_batter_goal == "b_choco":
+        easy_b_chocoturtle = turtle.Turtle()
+        turtle.addshape("chocobatter.gif")
+        easy_b_chocoturtle.shape("chocobatter.gif")
+    elif easy_batter_goal == "b_redvel":
+        easy_b_redvelturtle = turtle.Turtle()
+        turtle.addshape("redbatter.gif")
+        easy_b_redvelturtle.shape("redbatter.gif")
+    elif easy_batter_goal == "b_carrot":
+        easy_b_carrotturtle = turtle.Turtle()
+        turtle.addshape("carrotbatter.gif")
+        easy_b_carrotturtle.shape("carrotbatter.gif")
+    print(easy_batter_goal)
+
+def easy_randomfrosting():
+    global easy_frosting_goal
+    frostinglist = ["f_vanilla", "f_strbrry", "f_choco", "f_pistach"]
+    randomindex = random.randint(0,3)
+    easy_frosting_goal = frostinglist[randomindex]
+
+    if easy_frosting_goal == "f_vanilla":
+        easy_f_vanillaturtle = turtle.Turtle()
+        turtle.addshape("vanilla_frosting.gif")
+        easy_f_vanillaturtle.shape("vanilla_frosting.gif")
+    elif easy_frosting_goal == "f_strbrry":
+        easy_f_strbrryturtle = turtle.Turtle()
+        turtle.addshape("strbrry_frosting.gif")
+        easy_f_strbrryturtle.shape("strbrry_frosting.gif")
+    elif easy_frosting_goal == "f_choco":
+        easy_f_chocoturtle = turtle.Turtle()
+        turtle.addshape("choco_frosting.gif")
+        easy_f_chocoturtle.shape("choco_frosting.gif")
+    elif easy_frosting_goal == "f_pistach":
+        easy_f_pistachturtle = turtle.Turtle()
+        turtle.addshape("pistach_frosting.gif")
+        easy_f_pistachturtle.shape("pistach_frosting.gif")
+
+    # print(frosting_goal)
+
+def easy_randomtopping():
+    global easy_topping_goal
+    toppinglist = ["t_rainbowspr", "t_chocochips", "t_strbrry", "t_blubrry"]
+    randomindex = random.randint(0,3)
+    easy_topping_goal = toppinglist[randomindex]
+
+    if easy_topping_goal == "t_rainbowspr":
+        easy_t_rainbowsprturtle = turtle.Turtle()
+        turtle.addshape("rainbowspr_topping.gif")
+        easy_t_rainbowsprturtle.shape("rainbowspr_topping.gif")
+    elif easy_topping_goal == "t_chocochips":
+        easy_t_chocochipsturtle = turtle.Turtle()
+        turtle.addshape("chocochips_topping.gif")
+        easy_t_chocochipsturtle.shape("chocochips_topping.gif")
+    elif easy_topping_goal == "t_strbrry":
+        easy_t_strbrryturtle = turtle.Turtle()
+        turtle.addshape("strbrry_topping.gif")
+        easy_t_strbrryturtle.shape("strbrry_topping.gif")
+    elif easy_topping_goal == "t_blubrry":
+        easy_t_blubrryturtle = turtle.Turtle()
+        turtle.addshape("blubrry_topping.gif")
+        easy_t_blubrryturtle.shape("blubrry_topping.gif")
+
+
+
+def medium_randombatter_tier1():
+    global medium_batter_goal
+    batterlist = ["b_vanilla", "b_strbrry", "b_choco", "b_redvel", "b_carrot"]
+    randomindex = random.randint(0,4)
+    medium_batter_goal = batterlist[randomindex]
+    if medium_batter_goal == "b_vanilla":
+        medium_b_vanillaturtle = turtle.Turtle()
+        turtle.addshape("vanillabatter.gif")
+        medium_b_vanillaturtle.shape("vanillabatter.gif")
+    elif medium_batter_goal == "b_strbrry":
+        medium_b_strbrryturtle = turtle.Turtle()
+        turtle.addshape("strwbrrybatter.gif")
+        medium_b_strbrryturtle.shape("strwbrrybatter.gif")
+    elif medium_batter_goal == "b_choco":
+        medium_b_chocoturtle = turtle.Turtle()
+        turtle.addshape("chocobatter.gif")
+        medium_b_chocoturtle.shape("chocobatter.gif")
+    elif medium_batter_goal == "b_redvel":
+        medium_b_redvelturtle = turtle.Turtle()
+        turtle.addshape("redbatter.gif")
+        medium_b_redvelturtle.shape("redbatter.gif")
+    elif medium_batter_goal == "b_carrot":
+        medium_b_carrotturtle = turtle.Turtle()
+        turtle.addshape("carrotbatter.gif")
+        medium_b_carrotturtle.shape("carrotbatter.gif")
+    print(medium_batter_goal)
+
+def medium_randombatter_tier2():
+    global medium_t2batter_goal
+    t2batterlist = ["b_vanilla", "b_strbrry", "b_choco", "b_redvel", "b_carrot"]
+    randomindex = random.randint(0,4)
+    medium_t2batter_goal = t2batterlist[randomindex]
+    if medium_t2batter_goal == "b_vanilla":
+        medium_t2b_vanillaturtle = turtle.Turtle()
+        turtle.addshape("vanillabatter_tier2.gif")
+        medium_t2b_vanillaturtle.shape("vanillabatter_tier2.gif")
+    elif medium_t2batter_goal == "b_strbrry":
+        medium_t2b_strbrryturtle = turtle.Turtle()
+        turtle.addshape("strbrrybatter_tier2.gif")
+        medium_t2b_strbrryturtle.shape("strbrrybatter_tier2.gif")
+    elif medium_t2batter_goal == "b_choco":
+        medium_t2b_chocoturtle = turtle.Turtle()
+        turtle.addshape("chocobatter_tier2.gif")
+        medium_t2b_chocoturtle.shape("chocobatter_tier2.gif")
+    elif medium_t2batter_goal == "b_redvel":
+        medium_t2b_redvelturtle = turtle.Turtle()
+        turtle.addshape("redbatter_tier2.gif")
+        medium_t2b_redvelturtle.shape("redbatter_tier2.gif")
+    elif medium_t2batter_goal == "b_carrot":
+        medium_t2b_carrotturtle = turtle.Turtle()
+        turtle.addshape("carrotbatter_tier2.gif")
+        medium_t2b_carrotturtle.shape("carrotbatter_tier2.gif")
+    print(medium_t2batter_goal)
+
+def medium_randomfrosting():
+    global medium_frosting_goal
+    frostinglist = ["f_vanilla", "f_strbrry", "f_choco", "f_pistach"]
+    randomindex = random.randint(0,3)
+    medium_frosting_goal = frostinglist[randomindex]
+
+    if medium_frosting_goal == "f_vanilla":
+        medium_f_vanillaturtle = turtle.Turtle()
+        turtle.addshape("vanilla_frosting.gif")
+        medium_f_vanillaturtle.shape("vanilla_frosting.gif")
+    elif medium_frosting_goal == "f_strbrry":
+        medium_f_strbrryturtle = turtle.Turtle()
+        turtle.addshape("strbrry_frosting.gif")
+        medium_f_strbrryturtle.shape("strbrry_frosting.gif")
+    elif medium_frosting_goal == "f_choco":
+        medium_f_chocoturtle = turtle.Turtle()
+        turtle.addshape("choco_frosting.gif")
+        medium_f_chocoturtle.shape("choco_frosting.gif")
+    elif medium_frosting_goal == "f_pistach":
+        medium_f_pistachturtle = turtle.Turtle()
+        turtle.addshape("pistach_frosting.gif")
+        medium_f_pistachturtle.shape("pistach_frosting.gif")
+
+    print(medium_frosting_goal)
+
+def medium_randomtopping():
+    global medium_topping_goal
+    toppinglist = ["t_rainbowspr", "t_chocochips", "t_strbrry", "t_blubrry"]
+    randomindex = random.randint(0,3)
+    medium_topping_goal = toppinglist[randomindex]
+
+    if medium_topping_goal == "t_rainbowspr":
+        medium_t_rainbowsprturtle = turtle.Turtle()
+        turtle.addshape("rainbowspr_topping.gif")
+        medium_t_rainbowsprturtle.shape("rainbowspr_topping.gif")
+    elif medium_topping_goal == "t_chocochips":
+        medium_t_chocochipsturtle = turtle.Turtle()
+        turtle.addshape("chocochips_topping.gif")
+        medium_t_chocochipsturtle.shape("chocochips_topping.gif")
+    elif medium_topping_goal == "t_strbrry":
+        medium_t_strbrryturtle = turtle.Turtle()
+        turtle.addshape("strbrry_topping.gif")
+        medium_t_strbrryturtle.shape("strbrry_topping.gif")
+    elif medium_topping_goal == "t_blubrry":
+        medium_t_blubrryturtle = turtle.Turtle()
+        turtle.addshape("blubrry_topping.gif")
+        medium_t_blubrryturtle.shape("blubrry_topping.gif")
+
+    print(medium_topping_goal)
+
+
+
+def hard_randombatter_tier1():
+    global hard_batter_goal
+    batterlist = ["b_vanilla", "b_strbrry", "b_choco", "b_redvel", "b_carrot"]
+    randomindex = random.randint(0,4)
+    hard_batter_goal = batterlist[randomindex]
+    if hard_batter_goal == "b_vanilla":
+        hard_b_vanillaturtle = turtle.Turtle()
+        turtle.addshape("vanillabatter.gif")
+        hard_b_vanillaturtle.shape("vanillabatter.gif")
+    elif hard_batter_goal == "b_strbrry":
+        hard_b_strbrryturtle = turtle.Turtle()
+        turtle.addshape("strwbrrybatter.gif")
+        hard_b_strbrryturtle.shape("strwbrrybatter.gif")
+    elif hard_batter_goal == "b_choco":
+        hard_b_chocoturtle = turtle.Turtle()
+        turtle.addshape("chocobatter.gif")
+        hard_b_chocoturtle.shape("chocobatter.gif")
+    elif hard_batter_goal == "b_redvel":
+        hard_b_redvelturtle = turtle.Turtle()
+        turtle.addshape("redbatter.gif")
+        hard_b_redvelturtle.shape("redbatter.gif")
+    elif hard_batter_goal == "b_carrot":
+        hard_b_carrotturtle = turtle.Turtle()
+        turtle.addshape("carrotbatter.gif")
+        hard_b_carrotturtle.shape("carrotbatter.gif")
+    print(hard_batter_goal)
+
+def hard_randombatter_tier2():
+    global hard_t2batter_goal
+    t2batterlist = ["b_vanilla", "b_strbrry", "b_choco", "b_redvel", "b_carrot"]
+    randomindex = random.randint(0,4)
+    hard_t2batter_goal = t2batterlist[randomindex]
+    if hard_t2batter_goal == "b_vanilla":
+        hard_t2b_vanillaturtle = turtle.Turtle()
+        turtle.addshape("vanillabatter_tier2.gif")
+        hard_t2b_vanillaturtle.shape("vanillabatter_tier2.gif")
+    elif hard_t2batter_goal == "b_strbrry":
+        hard_t2b_strbrryturtle = turtle.Turtle()
+        turtle.addshape("strbrrybatter_tier2.gif")
+        hard_t2b_strbrryturtle.shape("strbrrybatter_tier2.gif")
+    elif hard_t2batter_goal == "b_choco":
+        hard_t2b_chocoturtle = turtle.Turtle()
+        turtle.addshape("chocobatter_tier2.gif")
+        hard_t2b_chocoturtle.shape("chocobatter_tier2.gif")
+    elif hard_t2batter_goal == "b_redvel":
+        hard_t2b_redvelturtle = turtle.Turtle()
+        turtle.addshape("redbatter_tier2.gif")
+        hard_t2b_redvelturtle.shape("redbatter_tier2.gif")
+    elif hard_t2batter_goal == "b_carrot":
+        hard_t2b_carrotturtle = turtle.Turtle()
+        turtle.addshape("carrotbatter_tier2.gif")
+        hard_t2b_carrotturtle.shape("carrotbatter_tier2.gif")
+    print(hard_t2batter_goal)
+
+def hard_randombatter_tier3():
+    global hard_t3batter_goal
+    t3batterlist = ["b_vanilla", "b_strbrry", "b_choco", "b_redvel", "b_carrot"]
+    randomindex = random.randint(0,4)
+    hard_t3batter_goal = t3batterlist[randomindex]
+    if hard_t3batter_goal == "b_vanilla":
+        hard_t3b_vanillaturtle = turtle.Turtle()
+        turtle.addshape("vanillabatter_tier3.gif")
+        hard_t3b_vanillaturtle.shape("vanillabatter_tier3.gif")
+    elif hard_t3batter_goal == "b_strbrry":
+        hard_t3b_strbrryturtle = turtle.Turtle()
+        turtle.addshape("strbrrybatter_tier3.gif")
+        hard_t3b_strbrryturtle.shape("strbrrybatter_tier3.gif")
+    elif hard_t3batter_goal == "b_choco":
+        hard_t3b_chocoturtle = turtle.Turtle()
+        turtle.addshape("chocobatter_tier3.gif")
+        hard_t3b_chocoturtle.shape("chocobatter_tier3.gif")
+    elif hard_t3batter_goal == "b_redvel":
+        hard_t3b_redvelturtle = turtle.Turtle()
+        turtle.addshape("redbatter_tier3.gif")
+        hard_t3b_redvelturtle.shape("redbatter_tier3.gif")
+    elif hard_t3batter_goal == "b_carrot":
+        hard_t3b_carrotturtle = turtle.Turtle()
+        turtle.addshape("carrotbatter_tier3.gif")
+        hard_t3b_carrotturtle.shape("carrotbatter_tier3.gif")
+    print(hard_t3batter_goal)
+
+def hard_randomfrosting():
+    global hard_frosting_goal
+    frostinglist = ["f_vanilla", "f_strbrry", "f_choco", "f_pistach"]
+    randomindex = random.randint(0,3)
+    hard_frosting_goal = frostinglist[randomindex]
+
+    if hard_frosting_goal == "f_vanilla":
+        hard_f_vanillaturtle = turtle.Turtle()
+        turtle.addshape("vanilla_frosting.gif")
+        hard_f_vanillaturtle.shape("vanilla_frosting.gif")
+    elif hard_frosting_goal == "f_strbrry":
+        hard_f_strbrryturtle = turtle.Turtle()
+        turtle.addshape("strbrry_frosting.gif")
+        hard_f_strbrryturtle.shape("strbrry_frosting.gif")
+    elif hard_frosting_goal == "f_choco":
+        hard_f_chocoturtle = turtle.Turtle()
+        turtle.addshape("choco_frosting.gif")
+        hard_f_chocoturtle.shape("choco_frosting.gif")
+    elif hard_frosting_goal == "f_pistach":
+        hard_f_pistachturtle = turtle.Turtle()
+        turtle.addshape("pistach_frosting.gif")
+        hard_f_pistachturtle.shape("pistach_frosting.gif")
+
+    print(hard_frosting_goal)
+
+def hard_randomtopping():
+    global hard_topping_goal
+    toppinglist = ["t_rainbowspr", "t_chocochips", "t_strbrry", "t_blubrry"]
+    randomindex = random.randint(0,3)
+    hard_topping_goal = toppinglist[randomindex]
+
+    if hard_topping_goal == "t_rainbowspr":
+        hard_t_rainbowsprturtle = turtle.Turtle()
+        turtle.addshape("rainbowspr_topping.gif")
+        hard_t_rainbowsprturtle.shape("rainbowspr_topping.gif")
+    elif hard_topping_goal == "t_chocochips":
+        hard_t_chocochipsturtle = turtle.Turtle()
+        turtle.addshape("chocochips_topping.gif")
+        hard_t_chocochipsturtle.shape("chocochips_topping.gif")
+    elif hard_topping_goal == "t_strbrry":
+        hard_t_strbrryturtle = turtle.Turtle()
+        turtle.addshape("strbrry_topping.gif")
+        hard_t_strbrryturtle.shape("strbrry_topping.gif")
+    elif hard_topping_goal == "t_blubrry":
+        hard_t_blubrryturtle = turtle.Turtle()
+        turtle.addshape("blubrry_topping.gif")
+        hard_t_blubrryturtle.shape("blubrry_topping.gif")
+
+    print(hard_topping_goal)
+
+###########################################
+
+def randomeasy():
+    easy_randombatter_tier1()
+    easy_randomfrosting()
+    easy_randomtopping()
+
+def randommedium():
+    medium_randombatter_tier2()
+    medium_randombatter_tier1()
+    medium_randomfrosting()
+    medium_randomtopping()
+
+def randomhard():
+    hard_randombatter_tier3()
+    hard_randombatter_tier2()
+    hard_randombatter_tier1()
+    hard_randomfrosting()
+    hard_randomtopping()
+
+
+
+def easy_hidecake():
+    global easy_b_vanillaturtle, easy_b_strbrryturtle, easy_b_chocoturtle, easy_b_redvelturtle, easy_b_carrotturtle
+    global easy_f_vanillaturtle, easy_f_strbrryturtle, easy_f_chocoturtle, easy_f_pistachturtle
+    global easy_t_rainbowsprturtle, easy_t_chocochipsturtle, easy_t_strbrryturtle, easy_t_blubrryturtle
+    global easy_batter_goal
+    print("hidecake called!")
+    batterlist = ["b_vanilla", "b_strbrry", "b_choco", "b_redvel", "b_carrot"]
+    if easy_batter_goal == "b_vanilla":
+        easy_b_vanillaturtle.hideturtle()
+        easy_b_vanillaturtle.clear()
+    if easy_batter_goal == "b_strbrry":
+        easy_b_strbrryturtle.hideturtle()
+        easy_b_strbrryturtle.clear()
+    if easy_batter_goal == "b_choco":
+        easy_b_chocoturtle.hideturtle()
+        easy_b_chocoturtle.clear()
+    if easy_batter_goal == "b_redvel":
+        easy_b_redvelturtle.hideturtle()
+    if easy_batter_goal == "b_carrot":
+        easy_b_carrotturtle.hideturtle()
+
+
+    frostinglist = ["f_vanilla", "f_strbrry", "f_choco", "f_pistach"]
+    
+    if easy_frosting_goal == "f_vanilla":
+        easy_f_vanillaturtle.hideturtle()
+    if easy_frosting_goal == "f_strbrry":
+        easy_f_strbrryturtle.hideturtle()
+    if easy_frosting_goal == "f_choco":
+        easy_f_chocoturtle.hideturtle()
+    if easy_frosting_goal == "f_pistach":
+        easy_f_pistachturtle.hideturtle()
+
+    toppinglist = ["t_rainbowspr", "t_chocochips", "t_strbrry", "t_blubrry"]
+
+    if easy_topping_goal == "t_rainbowspr":
+        easy_t_rainbowsprturtle.hideturtle()
+    if easy_topping_goal == "t_chocochips":
+        easy_t_chocochipsturtle.hideturtle()
+    if easy_topping_goal == "t_strbrry":
+        easy_t_strbrryturtle.hideturtle()
+    if easy_topping_goal == "t_blubrry":
+        easy_t_blubrryturtle.hideturtle()
+
+def medium_hidecake():
+    global medium_b_vanillaturtle, medium_b_strbrryturtle, medium_b_chocoturtle, medium_b_redvelturtle, medium_b_carrotturtle
+    global medium_t2b_vanillaturtle, medium_t2b_strbrryturtle, medium_t2b_chocoturtle, medium_t2b_redvelturtle, medium_t2b_carrotturtle
+    global medium_f_vanillaturtle, medium_f_strbrryturtle, medium_f_chocoturtle, medium_f_pistachturtle
+    global medium_t_rainbowsprturtle, medium_t_chocochipsturtle, medium_t_strbrryturtle, medium_t_blubrryturtle
+    global medium_batter_goal
+    print("hidecake called!")
+    batterlist = ["b_vanilla", "b_strbrry", "b_choco", "b_redvel", "b_carrot"]
+    if medium_batter_goal == "b_vanilla":
+        medium_b_vanillaturtle.hideturtle()
+        medium_b_vanillaturtle.clear()
+    if medium_batter_goal == "b_strbrry":
+        medium_b_strbrryturtle.hideturtle()
+        medium_b_strbrryturtle.clear()
+    if medium_batter_goal == "b_choco":
+        medium_b_chocoturtle.hideturtle()
+        medium_b_chocoturtle.clear()
+    if medium_batter_goal == "b_redvel":
+        medium_b_redvelturtle.hideturtle()
+    if medium_batter_goal == "b_carrot":
+        medium_b_carrotturtle.hideturtle()
+        medium_b_carrotturtle.clear()
+
+    if medium_t2batter_goal == "b_vanilla":
+        medium_t2b_vanillaturtle.hideturtle()
+        medium_t2b_vanillaturtle.clear()
+    if medium_t2batter_goal == "b_strbrry":
+        medium_t2b_strbrryturtle.hideturtle()
+        medium_t2b_strbrryturtle.clear()
+    if medium_t2batter_goal == "b_choco":
+        medium_t2b_chocoturtle.hideturtle()
+        medium_t2b_chocoturtle.clear()
+    if medium_t2batter_goal == "b_redvel":
+        medium_t2b_redvelturtle.hideturtle()
+        medium_t2b_redvelturtle.clear()
+    if medium_t2batter_goal == "b_carrot":
+        medium_t2b_carrotturtle.hideturtle()
+        medium_t2b_carrotturtle.clear()
+
+
+    frostinglist = ["f_vanilla", "f_strbrry", "f_choco", "f_pistach"]
+    
+    if medium_frosting_goal == "f_vanilla":
+        medium_f_vanillaturtle.hideturtle()
+        medium_f_vanillaturtle.clear()
+    if medium_frosting_goal == "f_strbrry":
+        medium_f_strbrryturtle.hideturtle()
+        medium_f_strbrryturtle.clear()
+    if medium_frosting_goal == "f_choco":
+        medium_f_chocoturtle.hideturtle()
+        medium_f_chocoturtle.clear()
+    if medium_frosting_goal == "f_pistach":
+        medium_f_pistachturtle.hideturtle()
+        medium_f_pistachturtle.clear()
+
+    toppinglist = ["t_rainbowspr", "t_chocochips", "t_strbrry", "t_blubrry"]
+
+    if medium_topping_goal == "t_rainbowspr":
+        medium_t_rainbowsprturtle.hideturtle()
+    if medium_topping_goal == "t_chocochips":
+        medium_t_chocochipsturtle.hideturtle()
+    if medium_topping_goal == "t_strbrry":
+        medium_t_strbrryturtle.hideturtle()
+    if medium_topping_goal == "t_blubrry":
+        medium_t_blubrryturtle.hideturtle()
+
+def hard_hidecake():
+    global hard_b_vanillaturtle, hard_b_strbrryturtle, hard_b_chocoturtle, hard_b_redvelturtle, hard_b_carrotturtle
+    global hard_t2b_vanillaturtle, hard_t2b_strbrryturtle, hard_t2b_chocoturtle, hard_t2b_redvelturtle, hard_t2b_carrotturtle
+    global hard_t3b_vanillaturtle, hard_t3b_strbrryturtle, hard_t3b_chocoturtle, hard_t3b_redvelturtle, hard_t3b_carrotturtle
+    global hard_f_vanillaturtle, hard_f_strbrryturtle, hard_f_chocoturtle, hard_f_pistachturtle
+    global hard_t_rainbowsprturtle, hard_t_chocochipsturtle, hard_t_strbrryturtle, hard_t_blubrryturtle
+    global hard_batter_goal
+    print("hidecake called!")
+    batterlist = ["b_vanilla", "b_strbrry", "b_choco", "b_redvel", "b_carrot"]
+    if hard_batter_goal == "b_vanilla":
+        hard_b_vanillaturtle.hideturtle()
+        hard_b_vanillaturtle.clear()
+    if hard_batter_goal == "b_strbrry":
+        hard_b_strbrryturtle.hideturtle()
+        hard_b_strbrryturtle.clear()
+    if hard_batter_goal == "b_choco":
+        hard_b_chocoturtle.hideturtle()
+        hard_b_chocoturtle.clear()
+    if hard_batter_goal == "b_redvel":
+        hard_b_redvelturtle.hideturtle()
+        hard_b_redvelturtle.clear()
+    if hard_batter_goal == "b_carrot":
+        hard_b_carrotturtle.hideturtle()
+        hard_b_carrotturtle.clear()
+
+    if hard_t2batter_goal == "b_vanilla":
+        hard_t2b_vanillaturtle.hideturtle()
+        hard_t2b_vanillaturtle.clear()
+    if hard_t2batter_goal == "b_strbrry":
+        hard_t2b_strbrryturtle.hideturtle()
+        hard_t2b_strbrryturtle.clear()
+    if hard_t2batter_goal == "b_choco":
+        hard_t2b_chocoturtle.hideturtle()
+        hard_t2b_chocoturtle.clear()
+    if hard_t2batter_goal == "b_redvel":
+        hard_t2b_redvelturtle.hideturtle()
+        hard_t2b_redvelturtle.clear()
+    if hard_t2batter_goal == "b_carrot":
+        hard_t2b_carrotturtle.hideturtle()
+        hard_t2b_carrotturtle.clear()
+
+    if hard_t3batter_goal == "b_vanilla":
+        hard_t3b_vanillaturtle.hideturtle()
+        hard_t3b_vanillaturtle.clear()
+    if hard_t3batter_goal == "b_strbrry":
+        hard_t3b_strbrryturtle.hideturtle()
+        hard_t3b_strbrryturtle.clear()
+    if hard_t3batter_goal == "b_choco":
+        hard_t3b_chocoturtle.hideturtle()
+        hard_t3b_chocoturtle.clear()
+    if hard_t3batter_goal == "b_redvel":
+        hard_t3b_redvelturtle.hideturtle()
+        hard_t3b_redvelturtle.clear()
+    if hard_t3batter_goal == "b_carrot":
+        hard_t3b_carrotturtle.hideturtle()
+        hard_t3b_carrotturtle.clear()
+
+    frostinglist = ["f_vanilla", "f_strbrry", "f_choco", "f_pistach"]
+    
+    if hard_frosting_goal == "f_vanilla":
+        hard_f_vanillaturtle.hideturtle()
+        hard_f_vanillaturtle.clear()
+    if hard_frosting_goal == "f_strbrry":
+        hard_f_strbrryturtle.hideturtle()
+        hard_f_strbrryturtle.clear()
+    if hard_frosting_goal == "f_choco":
+        hard_f_chocoturtle.hideturtle()
+        hard_f_chocoturtle.clear()
+    if hard_frosting_goal == "f_pistach":
+        hard_f_pistachturtle.hideturtle()
+        hard_f_pistachturtle.clear()
+
+    toppinglist = ["t_rainbowspr", "t_chocochips", "t_strbrry", "t_blubrry"]
+
+    if hard_topping_goal == "t_rainbowspr":
+        hard_t_rainbowsprturtle.hideturtle()
+        hard_t_rainbowsprturtle.clear()
+    if hard_topping_goal == "t_chocochips":
+        hard_t_chocochipsturtle.hideturtle()
+        hard_t_chocochipsturtle.clear()
+    if hard_topping_goal == "t_strbrry":
+        hard_t_strbrryturtle.hideturtle()
+        hard_t_strbrryturtle.clear()
+    if hard_topping_goal == "t_blubrry":
+        hard_t_blubrryturtle.hideturtle()
+        hard_t_blubrryturtle.clear()
+
+###########################################
+
+# Global variables
+welcomebg = turtle.Screen()
+welcomebg.setup(width=1500,height=500)
+welcomebg.title("Bake a Cake")
+welcomebg.bgcolor("black")
+gamerunning = False
+gameresult = "success"
+
+###########################################
+
+# Set up Button and Background Turtles
+cakebg = turtle.Turtle()
+welcomescreen = turtle.Turtle()
+startbutton = turtle.Turtle()
+endbutton = turtle.Turtle()
+easybutton = turtle.Turtle()
+mediumbutton = turtle.Turtle()
+hardbutton = turtle.Turtle()
+
+startclicker = turtle.Turtle()
+endclicker = turtle.Turtle()
+
+easyclicker = turtle.Turtle()
+mediumclicker = turtle.Turtle()
+hardclicker = turtle.Turtle()
+
+cakebg.hideturtle()
+turtle.addshape("cakebg.gif")
+cakebg.shape("cakebg.gif")
+
+instructionsbg = turtle.Turtle()
+
+# Functions
+
+###########################################
+
+# SCREEN 1- welcome
+
+def welcome():
+    instructionsbg.hideturtle()
+    instructionsbg.speed(0)
+    welcomescreen.hideturtle()
+    welcomescreen.speed(0)
+    turtle.addshape("welcomescreen.gif")
+    welcomescreen.shape("welcomescreen.gif")
+    welcomescreen.penup()
+    welcomescreen.showturtle()
+
+    startbutton.hideturtle()
+    startbutton.speed(0)
+    turtle.addshape("startbutton.gif")
+    startbutton.shape("startbutton.gif")
+    startbutton.penup()
+    startbutton.goto(8,-280)
+    startbutton.showturtle()
+
+    startclicker.hideturtle()
+    startclicker.speed(0)
+    startclicker.shape("square")
+    startclicker.shapesize(stretch_wid=4, stretch_len=9)
+    startclicker.penup()
+    startclicker.goto(8,-280)
+    startclicker.fillcolor("")
+    startclicker.pencolor("")
+    startclicker.showturtle()
+
+    endbutton.hideturtle()
+    endbutton.speed(0)
+    turtle.addshape("endbutton.gif")
+    endbutton.shape("endbutton.gif")
+    endbutton.penup()
+    endbutton.goto(10,-325)
+
+
+
+def hitstart(x,y):
+    global gamerunning
+    cakebg.showturtle()
+    cakebg.speed(0)
+    startbutton.clear()
+    startbutton.hideturtle()
+    welcomescreen.hideturtle()
+
+    endbutton.hideturtle()
+    endbutton.speed(0)
+    endbutton.goto(-475, 275)
+    endbutton.showturtle()
+    endclicker.hideturtle()
+    endclicker.speed(0)
+    endclicker.shape("square")
+    endclicker.shapesize(stretch_wid=4, stretch_len=9)
+    endclicker.penup()
+    endclicker.goto(-475,275)
+    endclicker.fillcolor("")
+    endclicker.pencolor("")
+    endclicker.showturtle()
+
+    gamerunning = True
+    welcomebg.bgcolor("black")
+    print("Welcome to Bake a Cake!")
+
+    easybutton.hideturtle()
+    easybutton.speed(0)
+    turtle.addshape("easybutton.gif")
+    easybutton.shape("easybutton.gif")
+    easybutton.penup()
+    easybutton.goto(0,225)
+    easybutton.showturtle()
+
+    easyclicker.hideturtle()
+    easyclicker.shape("circle")
+    easyclicker.speed(0)
+    easyclicker.shapesize(stretch_wid=8, stretch_len=24)
+    easyclicker.penup()
+    easyclicker.goto(0,225)
+    easyclicker.fillcolor("")
+    easyclicker.pencolor("")
+    easyclicker.showturtle()
+
+    mediumbutton.hideturtle()
+    mediumbutton.speed(0)
+    turtle.addshape("mediumbutton.gif")
+    mediumbutton.shape("mediumbutton.gif")
+    mediumbutton.penup()
+    mediumbutton.goto(0,0)
+    mediumclicker.fillcolor("")
+    mediumclicker.pencolor("")
+    mediumbutton.showturtle()
+
+    mediumclicker.hideturtle()
+    mediumclicker.shape("circle")
+    mediumclicker.shapesize(stretch_wid=8, stretch_len=28)
+    mediumclicker.penup()
+    mediumclicker.goto(0,0)
+    mediumclicker.fillcolor("")
+    mediumclicker.pencolor("")
+    mediumclicker.showturtle()
+
+    hardbutton.hideturtle()
+    hardbutton.speed(0)
+    turtle.addshape("hardbutton.gif")
+    hardbutton.shape("hardbutton.gif")
+    hardbutton.penup()
+    hardbutton.goto(0,-225)
+    hardbutton.showturtle()
+
+    hardclicker.hideturtle()
+    hardclicker.speed(0)
+    hardclicker.shape("circle")
+    hardclicker.shapesize(stretch_wid=8, stretch_len=20)
+    hardclicker.penup()
+    hardclicker.goto(0,-225)
+    hardclicker.fillcolor("")
+    hardclicker.pencolor("")
+    hardclicker.showturtle()
+
+    endbutton.onclick(hitend)
+
+    easyclicker.onclick(hiteasy)
+    mediumclicker.onclick(hitmedium)
+    hardclicker.onclick(hithard)
+
+###########################################
+
+# SCREEN 2- gamemodes
+
+def hitend(x,y):
+    global gamerunning
+
+    welcomebg.bgcolor("black")
+
+    startbutton.clear()
+    startbutton.hideturtle()
+    endbutton.clear()
+    endbutton.hideturtle()
+    endclicker.clear()
+    endclicker.hideturtle()
+
+    easybutton.clear()
+    easybutton.hideturtle()
+    mediumbutton.clear()
+    mediumbutton.hideturtle()    
+    hardbutton.clear()
+    hardbutton.hideturtle()
+
+    easyclicker.clear()
+    easyclicker.hideturtle()
+    mediumclicker.clear()
+    mediumclicker.hideturtle()
+    hardclicker.clear()
+    hardclicker.hideturtle()
+
+    cakebg.clear()
+    cakebg.hideturtle()
+    gamerunning = False
+    print("Game Over!")
+
+    welcome()
+    startbutton.onclick(hitstart)
+    endbutton.onclick(hitend)
+
+
+
+def hiteasy(x,y):
+    global gamerunning
+    print("Easy mode clicked!")
+    welcomebg.bgcolor("linen")
+    # easy()
+    cakebg.clear()
+    cakebg.hideturtle()
+    easybutton.clear()
+    easybutton.hideturtle()
+    mediumbutton.clear()
+    mediumbutton.hideturtle()
+    hardbutton.clear()
+    hardbutton.hideturtle()
+    welcomescreen.clear()
+    welcomescreen.hideturtle()
+
+    startbutton.clear()
+    startbutton.hideturtle()
+
+    endbutton.clear()
+    endclicker.clear()
+    endbutton.hideturtle()
+    endclicker.hideturtle()
+
+    easyclicker.clear()
+    easyclicker.hideturtle()
+    mediumclicker.clear()
+    mediumclicker.hideturtle()
+    hardclicker.clear()
+    hardclicker.hideturtle()
+
+    easygameinstructions()
+
+def hitmedium(x,y):
+    global gamerunning
+    welcomebg.bgcolor("linen")
+    # medium()
+    cakebg.clear()
+    cakebg.hideturtle()
+    easybutton.clear()
+    easybutton.hideturtle()
+    mediumbutton.clear()
+    mediumbutton.hideturtle()
+    hardbutton.clear()
+    hardbutton.hideturtle()
+    welcomescreen.clear()
+    welcomescreen.hideturtle()
+
+    startbutton.clear()
+    startbutton.hideturtle()
+
+    easyclicker.clear()
+    easyclicker.hideturtle()
+    mediumclicker.clear()
+    mediumclicker.hideturtle()
+    hardclicker.clear()
+    hardclicker.hideturtle()
+
+    mediumgameinstructions()
+
+def hithard(x,y):
+    global gamerunning
+    cakebg.clear()
+    cakebg.hideturtle()
+    easybutton.clear()
+    easybutton.hideturtle()
+    mediumbutton.clear()
+    mediumbutton.hideturtle()
+    hardbutton.clear()
+    hardbutton.hideturtle()
+    welcomescreen.clear()
+    welcomescreen.hideturtle()
+
+    startbutton.clear()
+    startbutton.hideturtle()
+
+    easyclicker.clear()
+    easyclicker.hideturtle()
+    mediumclicker.clear()
+    mediumclicker.hideturtle()
+    hardclicker.clear()
+    hardclicker.hideturtle()
+
+    hardgameinstructions()
+
+###########################################
+
+# SCREEN 3/4- Instructions/Cake Goal
+
+def easygameinstructions():
+    global in_startbutton
+    easy()
+    endbutton.hideturtle()
+    endbutton.clear()
+    endclicker.hideturtle()
+    endbutton.clear()
+
+    instructionsbg.showturtle()
+    instructionsbg.speed(0)
+    turtle.addshape("instructionsbg.gif")
+    instructionsbg.shape("instructionsbg.gif")
+
+    add_text = turtle.Turtle()
+    add_text.speed(0)
+    add_text.hideturtle()
+    add_text.penup()
+    add_text.color("lightsalmon4")
+    add_text.speed(10)
+    add_text.goto(145,45)
+    add_text.write("Welcome to Bake-A-Cake!\n" 
+                    "In this game you will be shown\n"
+                     "a picture of a cake,\n"
+                    "and your job is to recreate the\n"
+                    "exact same cake within\n"
+                    "the given time frame!\n" "Press start to continue:\n",
+                     align='center', font=("Verdana",15,"bold"))
+
+    in_startbutton = turtle.Turtle()
+    in_startbutton.penup()
+    in_startbutton.hideturtle()
+    turtle.addshape("in_startbutton.gif")
+    in_startbutton.shape("in_startbutton.gif")
+    in_startbutton.goto(115, -45)
+    in_startbutton.showturtle()
+
+    def hitin_start(x,y):
+        global forestbg, readybutton, cakegoal
+        print("in_startbutton clicked")
+        welcomebg.bgcolor("linen")
+        in_startbutton.clear()
+        in_startbutton.hideturtle()
+        add_text.clear()
+        add_text.hideturtle()
+        instructionsbg.clear()
+        instructionsbg.hideturtle()
+
+        forestbg = turtle.Turtle()
+        turtle.penup()
+        turtle.addshape("forestbg.gif")
+        forestbg.shape("forestbg.gif")
+
+        randomeasy()
+
+        cakegoal = turtle.Turtle()
+        cakegoal.hideturtle()
+        cakegoal.penup()
+        turtle.addshape("cakegoal.gif")
+        cakegoal.shape("cakegoal.gif")
+        cakegoal.goto(0, 250)
+        cakegoal.showturtle()
+
+        readybutton = turtle.Turtle()
+        readybutton.penup()
+        readybutton.hideturtle()
+        turtle.addshape("readybutton.gif")
+        readybutton.shape("readybutton.gif")
+        readybutton.goto(0, -300)
+        readybutton.showturtle()
+
+        readybutton.onclick(easyhitreadybutton)
+    in_startbutton.onclick(hitin_start)
+
+def mediumgameinstructions():
+    global in_startbutton
+    medium()
+    endbutton.hideturtle()
+    endbutton.clear()
+    endclicker.hideturtle()
+    endbutton.clear()
+
+    instructionsbg.showturtle()
+    instructionsbg.speed(0)
+    turtle.addshape("instructionsbg.gif")
+    instructionsbg.shape("instructionsbg.gif")
+
+    add_text = turtle.Turtle()
+    add_text.speed(0)
+    add_text.hideturtle()
+    add_text.penup()
+    add_text.color("lightsalmon4")
+    add_text.speed(10)
+    add_text.goto(145,45)
+    add_text.write("Welcome to Bake-A-Cake!\n" 
+                    "In this game you will be shown\n"
+                     "a picture of a cake,\n"
+                    "and your job is to recreate the\n"
+                    "exact same cake within\n"
+                    "the given time frame!\n" "Press start to continue:\n",
+                     align='center', font=("Verdana",15,"bold"))
+
+    in_startbutton = turtle.Turtle()
+    in_startbutton.penup()
+    in_startbutton.hideturtle()
+    turtle.addshape("in_startbutton.gif")
+    in_startbutton.shape("in_startbutton.gif")
+    in_startbutton.goto(115, -45)
+    in_startbutton.showturtle()
+
+    def hitin_start(x,y):
+        global forestbg, readybutton, cakegoal
+        print("in_startbutton clicked")
+        welcomebg.bgcolor("linen")
+        in_startbutton.clear()
+        in_startbutton.hideturtle()
+        add_text.clear()
+        add_text.hideturtle()
+        instructionsbg.clear()
+        instructionsbg.hideturtle()
+
+        forestbg = turtle.Turtle()
+        turtle.penup()
+        turtle.addshape("forestbg.gif")
+        forestbg.shape("forestbg.gif")
+
+        randommedium()
+
+        cakegoal = turtle.Turtle()
+        cakegoal.hideturtle()
+        cakegoal.penup()
+        turtle.addshape("cakegoal.gif")
+        cakegoal.shape("cakegoal.gif")
+        cakegoal.goto(0, 250)
+        cakegoal.showturtle()
+
+        readybutton = turtle.Turtle()
+        readybutton.penup()
+        readybutton.hideturtle()
+        turtle.addshape("readybutton.gif")
+        readybutton.shape("readybutton.gif")
+        readybutton.goto(0, -300)
+        readybutton.showturtle()
+
+        readybutton.onclick(mediumhitreadybutton)
+    in_startbutton.onclick(hitin_start)
+
+def hardgameinstructions():
+    global in_startbutton
+    hard()
+    endbutton.hideturtle()
+    endbutton.clear()
+    endclicker.hideturtle()
+    endbutton.clear()
+
+    instructionsbg.showturtle()
+    instructionsbg.speed(0)
+    turtle.addshape("instructionsbg.gif")
+    instructionsbg.shape("instructionsbg.gif")
+
+    add_text = turtle.Turtle()
+    add_text.speed(0)
+    add_text.hideturtle()
+    add_text.penup()
+    add_text.color("lightsalmon4")
+    add_text.speed(10)
+    add_text.goto(145,45)
+    add_text.write("Welcome to Bake-A-Cake!\n" 
+                    "In this game you will be shown\n"
+                     "a picture of a cake,\n"
+                    "and your job is to recreate the\n"
+                    "exact same cake within\n"
+                    "the given time frame!\n" "Press start to continue:\n",
+                     align='center', font=("Verdana",15,"bold"))
+
+    in_startbutton = turtle.Turtle()
+    in_startbutton.penup()
+    in_startbutton.hideturtle()
+    turtle.addshape("in_startbutton.gif")
+    in_startbutton.shape("in_startbutton.gif")
+    in_startbutton.goto(115, -45)
+    in_startbutton.showturtle()
+
+    def hitin_start(x,y):
+        global forestbg, readybutton, cakegoal
+        print("in_startbutton clicked")
+        welcomebg.bgcolor("linen")
+        in_startbutton.clear()
+        in_startbutton.hideturtle()
+        add_text.clear()
+        add_text.hideturtle()
+        instructionsbg.clear()
+        instructionsbg.hideturtle()
+
+        forestbg = turtle.Turtle()
+        turtle.penup()
+        turtle.addshape("forestbg.gif")
+        forestbg.shape("forestbg.gif")
+
+        randomhard()
+        cakegoal = turtle.Turtle()
+        cakegoal.hideturtle()
+        cakegoal.penup()
+        turtle.addshape("cakegoal.gif")
+        cakegoal.shape("cakegoal.gif")
+        cakegoal.goto(0, 250)
+        cakegoal.showturtle()
+
+        readybutton = turtle.Turtle()
+        readybutton.penup()
+        readybutton.hideturtle()
+        turtle.addshape("readybutton.gif")
+        readybutton.shape("readybutton.gif")
+        readybutton.goto(0, -300)
+        readybutton.showturtle()
+
+        
+        readybutton.onclick(hardhitreadybutton)
+
+    in_startbutton.onclick(hitin_start)
+
+###########################################
+
+# SCREEN 5- gameplay
+
+###########################################
+
+def easyhitreadybutton(x,y):
+    global gameresult, batterdone, gamestart
+    batterdone = False
+    forestbg.hideturtle()
+    readybutton.hideturtle()
+    cakegoal.hideturtle()
+
+    gamestart = turtle.Turtle()
+    turtle.addshape("gamestart.gif")
+    gamestart.shape("gamestart.gif")
+
+    #####################################
+    # GAMEPLAY
+    #####################################
+
+    easygameplay()
+
+def mediumhitreadybutton(x,y):
+    global gamestart
+    forestbg.hideturtle()
+    readybutton.hideturtle()
+    cakegoal.hideturtle()
+
+    gamestart = turtle.Turtle()
+    turtle.addshape("gamestart.gif")
+    gamestart.shape("gamestart.gif")
+
+    #####################################
+    # GAMEPLAY
+    #####################################
+
+    mediumgameplay()  
+
+def hardhitreadybutton(x,y):
+    global gamestart
+    forestbg.hideturtle()
+    readybutton.hideturtle()
+    cakegoal.hideturtle()
+
+    gamestart = turtle.Turtle()
+    turtle.addshape("gamestart.gif")
+    gamestart.shape("gamestart.gif")
+
+    #####################################
+    # GAMEPLAY
+    #####################################
+
+    hardgameplay() 
+
+
+
+easytime = 45
+def easygameplay():
+    global batterdone
+    global timeturtle
+    easybatterboxes()
+    timeturtle = turtle.Turtle()
+    timeturtle.hideturtle()
+    timeturtle.penup()
+    timeturtle.goto(570, 300)
+    timeturtle.color("black")
+   
+
+    b_vanillabox.onclick(hit_easyvanillabatter)
+    b_strbrrybox.onclick(hit_easystrwbrrybatter)
+    b_chocobox.onclick(hit_easychocobatter)
+    b_redvelbox.onclick(hit_easyredbatter)
+    b_carrotbox.onclick(hit_easycarrotbatter)
+    easycountdown()
+
+def easycountdown():
+    global easytime
+    while easytime > 0:
+        easytime -= 1
+        easyupdatecountime()   
+        time.sleep(1)  
+    
+    
+    easyupdatecountime() 
+
+def easyupdatecountime():
+    global easytime
+    timeturtle.clear() 
+    timeturtle.write(f"Time: {easytime}", align="center", font=("Arial", 20, "bold"))
+
+mediumtime= 60
+def mediumgameplay():
+    global t2batterdone, batterdone
+    global timeturtle
+    mediumt2batterboxes()
+
+    timeturtle = turtle.Turtle()
+    timeturtle.hideturtle()
+    timeturtle.penup()
+    timeturtle.goto(570, 300)
+    timeturtle.color("black")
+
+    
+    b_vanillabox.onclick(hit_mediumt2vanillabatter)
+    b_strbrrybox.onclick(hit_mediumt2strwbrrybatter)
+    b_chocobox.onclick(hit_mediumt2chocobatter)
+    b_redvelbox.onclick(hit_mediumt2redbatter)
+    b_carrotbox.onclick(hit_mediumt2carrotbatter)
+   
+    mediumcountdown()
+
+def mediumcountdown():
+    global mediumtime 
+    while mediumtime  > 0:
+        mediumtime -= 1
+        mediumupdatecountime()  
+        time.sleep(1)  
+    
+    
+    mediumupdatecountime() 
+
+def mediumupdatecountime():
+    global mediumtime 
+    timeturtle.clear() 
+    timeturtle.write(f"Time: {mediumtime}", align="center", font=("Arial", 20, "bold"))
+
+hardtime= 90
+
+def hardgameplay():
+    global timeturtle
+
+    hardt3batterboxes()
+
+    timeturtle = turtle.Turtle()
+    timeturtle.hideturtle()
+    timeturtle.penup()
+    timeturtle.goto(570, 300)
+    timeturtle.color("black")
+   
+    hardcountdown()
+############################################
+def hardcountdown():
+    global hardtime 
+    while hardtime  > 0:
+        hardtime -= 1
+        hardupdatecountime()  
+        time.sleep(1)  
+    
+    
+    hardupdatecountime() 
+
+def hardupdatecountime():
+    global hardtime
+    timeturtle.clear() 
+    timeturtle.write(f"Time: {hardtime}", align="center", font=("Arial", 20, "bold"))
+# BATTER SELECTION
+
+def easybatterboxes():
+    global b_vanillabox, b_strbrrybox, b_chocobox, b_redvelbox, b_carrotbox, b_directions
+    b_directions = turtle.Turtle()
+    b_directions.speed(0)
+    b_directions.penup()
+    b_directions.hideturtle()
+    b_directions.goto(-425,-310)
+    turtle.addshape("b_directions.gif")
+    b_directions.shape("b_directions.gif")
+    b_directions.showturtle()
+
+    # BATTER FLAVORS: 
+    batterlist = ["b_vanilla", "b_strbrry", "b_choco", "b_redvel", "b_carrot"]
+
+    b_vanillabox = turtle.Turtle()
+    b_vanillabox.speed(0)
+    b_vanillabox.hideturtle()
+    b_vanillabox.penup()
+    b_vanillabox.goto(-400,280)
+    turtle.addshape("b_vanillabox.gif")
+    b_vanillabox.shape("b_vanillabox.gif")
+    b_vanillabox.showturtle()
+
+
+    b_strbrrybox = turtle.Turtle()
+    b_strbrrybox.speed(0)
+    b_strbrrybox.hideturtle()
+    b_strbrrybox.penup()
+    b_strbrrybox.goto(-200,280)
+    turtle.addshape("b_strbrrybox.gif")
+    b_strbrrybox.shape("b_strbrrybox.gif")
+    b_strbrrybox.showturtle()
+
+    b_chocobox = turtle.Turtle()
+    b_chocobox.speed(0)
+    b_chocobox.hideturtle()
+    b_chocobox.penup()
+    b_chocobox.goto(0,280)
+    turtle.addshape("b_chocobox.gif")
+    b_chocobox.shape("b_chocobox.gif")
+    b_chocobox.showturtle()
+
+    b_redvelbox = turtle.Turtle()
+    b_redvelbox.speed(0)
+    b_redvelbox.hideturtle()
+    b_redvelbox.penup()
+    b_redvelbox.goto(200,280)
+    turtle.addshape("b_redvelbox.gif")
+    b_redvelbox.shape("b_redvelbox.gif")
+    b_redvelbox.showturtle()
+
+    b_carrotbox = turtle.Turtle()
+    b_carrotbox.speed(0)
+    b_carrotbox.hideturtle()
+    b_carrotbox.penup()
+    b_carrotbox.goto(400,280)
+    turtle.addshape("b_carrotbox.gif")
+    b_carrotbox.shape("b_carrotbox.gif")
+    b_carrotbox.showturtle()  
+
+def hit_easyvanillabatter(x,y):
+    global easy_batter_goal, gameresult, batterdone
+    batterdone = True
+    if easy_batter_goal != "b_vanilla":
+        gameresult = "fail"
+    userb_vanillaturtle = turtle.Turtle()
+    userb_vanillaturtle.penup()
+    userb_vanillaturtle.hideturtle()
+    turtle.addshape("vanillabatter.gif")
+    userb_vanillaturtle.shape("vanillabatter.gif")
+    userb_vanillaturtle.showturtle()
+
+    b_vanillabox.hideturtle()
+    b_strbrrybox.hideturtle()
+    b_chocobox.hideturtle()
+    b_redvelbox.hideturtle()
+    b_carrotbox.hideturtle()
+
+    b_directions.hideturtle()
+
+    print(gameresult)
+
+    easyfrostingboxes()
+
+def hit_easystrwbrrybatter(x,y):
+    global easy_batter_goal, gameresult, batterdone
+    batterdone = True
+    if easy_batter_goal != "b_strbrry":
+        gameresult = "fail"
+    userb_strbrryturtle = turtle.Turtle()
+    userb_strbrryturtle.penup()
+    userb_strbrryturtle.hideturtle()
+    turtle.addshape("strwbrrybatter.gif")
+    userb_strbrryturtle.shape("strwbrrybatter.gif")
+    userb_strbrryturtle.showturtle()
+
+    b_vanillabox.hideturtle()
+    b_strbrrybox.hideturtle()
+    b_chocobox.hideturtle()
+    b_redvelbox.hideturtle()
+    b_carrotbox.hideturtle()
+
+    b_directions.hideturtle()
+
+    print(gameresult)
+
+    easyfrostingboxes()
+
+def hit_easychocobatter(x,y):
+    global easy_batter_goal, gameresult, batterdone
+    batterdone = True
+    if easy_batter_goal != "b_choco":
+        gameresult = "fail"
+    userb_chocoturtle = turtle.Turtle()
+    userb_chocoturtle.penup()
+    userb_chocoturtle.hideturtle()
+    turtle.addshape("chocobatter.gif")
+    userb_chocoturtle.shape("chocobatter.gif")
+    userb_chocoturtle.showturtle()
+
+    b_vanillabox.hideturtle()
+    b_strbrrybox.hideturtle()
+    b_chocobox.hideturtle()
+    b_redvelbox.hideturtle()
+    b_carrotbox.hideturtle()
+
+    b_directions.hideturtle()
+
+    print(gameresult)
+
+    easyfrostingboxes()
+
+def hit_easyredbatter(x,y):
+    global easy_batter_goal, gameresult, batterdone
+    batterdone = True
+    if easy_batter_goal != "b_redvel":
+        gameresult = "fail"
+    userb_redvelturtle = turtle.Turtle()
+    userb_redvelturtle.penup()
+    userb_redvelturtle.hideturtle()
+    turtle.addshape("redbatter.gif")
+    userb_redvelturtle.shape("redbatter.gif")
+    userb_redvelturtle.showturtle()
+
+    b_vanillabox.hideturtle()
+    b_strbrrybox.hideturtle()
+    b_chocobox.hideturtle()
+    b_redvelbox.hideturtle()
+    b_carrotbox.hideturtle()
+
+    b_directions.hideturtle()
+
+    print(gameresult)
+
+    easyfrostingboxes()
+
+def hit_easycarrotbatter(x,y):
+    global easy_batter_goal, gameresult, batterdone
+    batterdone = True
+    if easy_batter_goal != "b_carrot":
+        gameresult = "fail"
+    userb_carrotturtle = turtle.Turtle()
+    userb_carrotturtle.penup()
+    userb_carrotturtle.hideturtle()
+    turtle.addshape("carrotbatter.gif")
+    userb_carrotturtle.shape("carrotbatter.gif")
+    userb_carrotturtle.showturtle()
+
+    b_vanillabox.hideturtle()
+    b_strbrrybox.hideturtle()
+    b_chocobox.hideturtle()
+    b_redvelbox.hideturtle()
+    b_carrotbox.hideturtle()
+
+    b_directions.hideturtle()
+
+    print(gameresult)
+
+    easyfrostingboxes()
+
+
+
+def mediumt2batterboxes():
+    global b_vanillabox, b_strbrrybox, b_chocobox, b_redvelbox, b_carrotbox, b_directions
+    b_directions = turtle.Turtle()
+    b_directions.speed(0)
+    b_directions.penup()
+    b_directions.hideturtle()
+    b_directions.goto(-425,-310)
+    turtle.addshape("b_directions.gif")
+    b_directions.shape("b_directions.gif")
+    b_directions.showturtle()
+
+    # BATTER FLAVORS: 
+    batterlist = ["b_vanilla", "b_strbrry", "b_choco", "b_redvel", "b_carrot"]
+
+    b_vanillabox = turtle.Turtle()
+    b_vanillabox.speed(0)
+    b_vanillabox.hideturtle()
+    b_vanillabox.penup()
+    b_vanillabox.goto(-400,280)
+    turtle.addshape("b_vanillabox.gif")
+    b_vanillabox.shape("b_vanillabox.gif")
+    b_vanillabox.showturtle()
+
+
+    b_strbrrybox = turtle.Turtle()
+    b_strbrrybox.speed(0)
+    b_strbrrybox.hideturtle()
+    b_strbrrybox.penup()
+    b_strbrrybox.goto(-200,280)
+    turtle.addshape("b_strbrrybox.gif")
+    b_strbrrybox.shape("b_strbrrybox.gif")
+    b_strbrrybox.showturtle()
+
+    b_chocobox = turtle.Turtle()
+    b_chocobox.speed(0)
+    b_chocobox.hideturtle()
+    b_chocobox.penup()
+    b_chocobox.goto(0,280)
+    turtle.addshape("b_chocobox.gif")
+    b_chocobox.shape("b_chocobox.gif")
+    b_chocobox.showturtle()
+
+    b_redvelbox = turtle.Turtle()
+    b_redvelbox.speed(0)
+    b_redvelbox.hideturtle()
+    b_redvelbox.penup()
+    b_redvelbox.goto(200,280)
+    turtle.addshape("b_redvelbox.gif")
+    b_redvelbox.shape("b_redvelbox.gif")
+    b_redvelbox.showturtle()
+
+    b_carrotbox = turtle.Turtle()
+    b_carrotbox.speed(0)
+    b_carrotbox.hideturtle()
+    b_carrotbox.penup()
+    b_carrotbox.goto(400,280)
+    turtle.addshape("b_carrotbox.gif")
+    b_carrotbox.shape("b_carrotbox.gif")
+    b_carrotbox.showturtle()  
+
+def hit_mediumt2vanillabatter(x,y):
+    global medium_t2batter_goal, gameresult, t2batterdone
+    t2batterdone = True
+    if medium_t2batter_goal != "b_vanilla":
+        gameresult = "fail"
+    userb_vanillaturtle = turtle.Turtle()
+    userb_vanillaturtle.penup()
+    userb_vanillaturtle.hideturtle()
+    turtle.addshape("vanillabatter_tier2.gif")
+    userb_vanillaturtle.shape("vanillabatter_tier2.gif")
+    userb_vanillaturtle.showturtle()
+
+    b_vanillabox.hideturtle()
+    b_strbrrybox.hideturtle()
+    b_chocobox.hideturtle()
+    b_redvelbox.hideturtle()
+    b_carrotbox.hideturtle()
+
+    b_directions.hideturtle()
+
+    print(gameresult)
+
+    mediumbatterboxes()
+
+def hit_mediumt2strwbrrybatter(x,y):
+    global medium_t2batter_goal, gameresult, t2batterdone
+    batterdone = True
+    if medium_t2batter_goal != "b_strbrry":
+        gameresult = "fail"
+    userb_strbrryturtle = turtle.Turtle()
+    userb_strbrryturtle.penup()
+    userb_strbrryturtle.hideturtle()
+    turtle.addshape("strbrrybatter_tier2.gif")
+    userb_strbrryturtle.shape("strbrrybatter_tier2.gif")
+    userb_strbrryturtle.showturtle()
+
+    b_vanillabox.hideturtle()
+    b_strbrrybox.hideturtle()
+    b_chocobox.hideturtle()
+    b_redvelbox.hideturtle()
+    b_carrotbox.hideturtle()
+
+    b_directions.hideturtle()
+
+    print(gameresult)
+
+    mediumbatterboxes()
+
+def hit_mediumt2chocobatter(x,y):
+    global medium_t2batter_goal, gameresult, t2batterdone
+    batterdone = True
+    if medium_t2batter_goal != "b_choco":
+        gameresult = "fail"
+    userb_chocoturtle = turtle.Turtle()
+    userb_chocoturtle.penup()
+    userb_chocoturtle.hideturtle()
+    turtle.addshape("chocobatter_tier2.gif")
+    userb_chocoturtle.shape("chocobatter_tier2.gif")
+    userb_chocoturtle.showturtle()
+
+    b_vanillabox.hideturtle()
+    b_strbrrybox.hideturtle()
+    b_chocobox.hideturtle()
+    b_redvelbox.hideturtle()
+    b_carrotbox.hideturtle()
+
+    b_directions.hideturtle()
+
+    print(gameresult)
+
+    mediumbatterboxes()
+
+def hit_mediumt2redbatter(x,y):
+    global medium_t2batter_goal, gameresult, t2batterdone
+    batterdone = True
+    if medium_t2batter_goal != "b_redvel":
+        gameresult = "fail"
+    userb_redvelturtle = turtle.Turtle()
+    userb_redvelturtle.penup()
+    userb_redvelturtle.hideturtle()
+    turtle.addshape("redbatter_tier2.gif")
+    userb_redvelturtle.shape("redbatter_tier2.gif")
+    userb_redvelturtle.showturtle()
+
+    b_vanillabox.hideturtle()
+    b_strbrrybox.hideturtle()
+    b_chocobox.hideturtle()
+    b_redvelbox.hideturtle()
+    b_carrotbox.hideturtle()
+
+    b_directions.hideturtle()
+
+    print(gameresult)
+
+    mediumbatterboxes()
+
+def hit_mediumt2carrotbatter(x,y):
+    global medium_t2batter_goal, gameresult, t2batterdone
+    batterdone = True
+    if medium_t2batter_goal != "b_carrot":
+        gameresult = "fail"
+    userb_carrotturtle = turtle.Turtle()
+    userb_carrotturtle.penup()
+    userb_carrotturtle.hideturtle()
+    turtle.addshape("carrotbatter_tier2.gif")
+    userb_carrotturtle.shape("carrotbatter_tier2.gif")
+    userb_carrotturtle.showturtle()
+
+    b_vanillabox.hideturtle()
+    b_strbrrybox.hideturtle()
+    b_chocobox.hideturtle()
+    b_redvelbox.hideturtle()
+    b_carrotbox.hideturtle()
+
+    b_directions.hideturtle()
+
+    print(gameresult)
+
+    mediumbatterboxes()
+
+
+
+def mediumbatterboxes():
+    global b_vanillabox, b_strbrrybox, b_chocobox, b_redvelbox, b_carrotbox, b_directions
+    b_directions = turtle.Turtle()
+    b_directions.speed(0)
+    b_directions.penup()
+    b_directions.hideturtle()
+    b_directions.goto(-425,-310)
+    turtle.addshape("b_directions.gif")
+    b_directions.shape("b_directions.gif")
+    b_directions.showturtle()
+
+    # BATTER FLAVORS: 
+    batterlist = ["b_vanilla", "b_strbrry", "b_choco", "b_redvel", "b_carrot"]
+
+    b_vanillabox = turtle.Turtle()
+    b_vanillabox.speed(0)
+    b_vanillabox.hideturtle()
+    b_vanillabox.penup()
+    b_vanillabox.goto(-400,280)
+    turtle.addshape("b_vanillabox.gif")
+    b_vanillabox.shape("b_vanillabox.gif")
+    b_vanillabox.showturtle()
+
+
+    b_strbrrybox = turtle.Turtle()
+    b_strbrrybox.speed(0)
+    b_strbrrybox.hideturtle()
+    b_strbrrybox.penup()
+    b_strbrrybox.goto(-200,280)
+    turtle.addshape("b_strbrrybox.gif")
+    b_strbrrybox.shape("b_strbrrybox.gif")
+    b_strbrrybox.showturtle()
+
+    b_chocobox = turtle.Turtle()
+    b_chocobox.speed(0)
+    b_chocobox.hideturtle()
+    b_chocobox.penup()
+    b_chocobox.goto(0,280)
+    turtle.addshape("b_chocobox.gif")
+    b_chocobox.shape("b_chocobox.gif")
+    b_chocobox.showturtle()
+
+    b_redvelbox = turtle.Turtle()
+    b_redvelbox.speed(0)
+    b_redvelbox.hideturtle()
+    b_redvelbox.penup()
+    b_redvelbox.goto(200,280)
+    turtle.addshape("b_redvelbox.gif")
+    b_redvelbox.shape("b_redvelbox.gif")
+    b_redvelbox.showturtle()
+
+    b_carrotbox = turtle.Turtle()
+    b_carrotbox.speed(0)
+    b_carrotbox.hideturtle()
+    b_carrotbox.penup()
+    b_carrotbox.goto(400,280)
+    turtle.addshape("b_carrotbox.gif")
+    b_carrotbox.shape("b_carrotbox.gif")
+    b_carrotbox.showturtle()  
+
+    b_vanillabox.onclick(hit_mediumvanillabatter)
+    b_strbrrybox.onclick(hit_mediumstrwbrrybatter)
+    b_chocobox.onclick(hit_mediumchocobatter)
+    b_redvelbox.onclick(hit_mediumredbatter)
+    b_carrotbox.onclick(hit_mediumcarrotbatter)
+
+def hit_mediumvanillabatter(x,y):
+    global medium_batter_goal, gameresult, batterdone
+    batterdone = True
+    if medium_batter_goal != "b_vanilla":
+        gameresult = "fail"
+    userb_vanillaturtle = turtle.Turtle()
+    userb_vanillaturtle.penup()
+    userb_vanillaturtle.hideturtle()
+    turtle.addshape("vanillabatter.gif")
+    userb_vanillaturtle.shape("vanillabatter.gif")
+    userb_vanillaturtle.showturtle()
+
+    b_vanillabox.hideturtle()
+    b_strbrrybox.hideturtle()
+    b_chocobox.hideturtle()
+    b_redvelbox.hideturtle()
+    b_carrotbox.hideturtle()
+
+    b_directions.hideturtle()
+
+    print(gameresult)
+
+    mediumfrostingboxes()
+
+def hit_mediumstrwbrrybatter(x,y):
+    global medium_batter_goal, gameresult, batterdone
+    batterdone = True
+    if medium_batter_goal != "b_strbrry":
+        gameresult = "fail"
+    userb_strbrryturtle = turtle.Turtle()
+    userb_strbrryturtle.penup()
+    userb_strbrryturtle.hideturtle()
+    turtle.addshape("strwbrrybatter.gif")
+    userb_strbrryturtle.shape("strwbrrybatter.gif")
+    userb_strbrryturtle.showturtle()
+
+    b_vanillabox.hideturtle()
+    b_strbrrybox.hideturtle()
+    b_chocobox.hideturtle()
+    b_redvelbox.hideturtle()
+    b_carrotbox.hideturtle()
+
+    b_directions.hideturtle()
+
+    print(gameresult)
+
+    mediumfrostingboxes()
+
+def hit_mediumchocobatter(x,y):
+    global medium_batter_goal, gameresult, batterdone
+    batterdone = True
+    if medium_batter_goal != "b_choco":
+        gameresult = "fail"
+    userb_chocoturtle = turtle.Turtle()
+    userb_chocoturtle.penup()
+    userb_chocoturtle.hideturtle()
+    turtle.addshape("chocobatter.gif")
+    userb_chocoturtle.shape("chocobatter.gif")
+    userb_chocoturtle.showturtle()
+
+    b_vanillabox.hideturtle()
+    b_strbrrybox.hideturtle()
+    b_chocobox.hideturtle()
+    b_redvelbox.hideturtle()
+    b_carrotbox.hideturtle()
+
+    b_directions.hideturtle()
+
+    print(gameresult)
+
+    mediumfrostingboxes()
+
+def hit_mediumredbatter(x,y):
+    global medium_batter_goal, gameresult, batterdone
+    batterdone = True
+    if medium_batter_goal != "b_redvel":
+        gameresult = "fail"
+    userb_redvelturtle = turtle.Turtle()
+    userb_redvelturtle.penup()
+    userb_redvelturtle.hideturtle()
+    turtle.addshape("redbatter.gif")
+    userb_redvelturtle.shape("redbatter.gif")
+    userb_redvelturtle.showturtle()
+
+    b_vanillabox.hideturtle()
+    b_strbrrybox.hideturtle()
+    b_chocobox.hideturtle()
+    b_redvelbox.hideturtle()
+    b_carrotbox.hideturtle()
+
+    b_directions.hideturtle()
+
+    print(gameresult)
+
+    mediumfrostingboxes()
+
+def hit_mediumcarrotbatter(x,y):
+    global medium_batter_goal, gameresult, batterdone
+    batterdone = True
+    if medium_batter_goal != "b_carrot":
+        gameresult = "fail"
+    userb_carrotturtle = turtle.Turtle()
+    userb_carrotturtle.penup()
+    userb_carrotturtle.hideturtle()
+    turtle.addshape("carrotbatter.gif")
+    userb_carrotturtle.shape("carrotbatter.gif")
+    userb_carrotturtle.showturtle()
+
+    b_vanillabox.hideturtle()
+    b_strbrrybox.hideturtle()
+    b_chocobox.hideturtle()
+    b_redvelbox.hideturtle()
+    b_carrotbox.hideturtle()
+
+    b_directions.hideturtle()
+
+    print(gameresult)
+
+    mediumfrostingboxes()
+
+
+
+def hardt3batterboxes():
+    global b_vanillabox, b_strbrrybox, b_chocobox, b_redvelbox, b_carrotbox, b_directions
+    b_directions = turtle.Turtle()
+    b_directions.speed(0)
+    b_directions.penup()
+    b_directions.hideturtle()
+    b_directions.goto(-425,-310)
+    turtle.addshape("b_directions.gif")
+    b_directions.shape("b_directions.gif")
+    b_directions.showturtle()
+
+    # BATTER FLAVORS: 
+    batterlist = ["b_vanilla", "b_strbrry", "b_choco", "b_redvel", "b_carrot"]
+
+    b_vanillabox = turtle.Turtle()
+    b_vanillabox.speed(0)
+    b_vanillabox.hideturtle()
+    b_vanillabox.penup()
+    b_vanillabox.goto(-400,280)
+    turtle.addshape("b_vanillabox.gif")
+    b_vanillabox.shape("b_vanillabox.gif")
+    b_vanillabox.showturtle()
+
+
+    b_strbrrybox = turtle.Turtle()
+    b_strbrrybox.speed(0)
+    b_strbrrybox.hideturtle()
+    b_strbrrybox.penup()
+    b_strbrrybox.goto(-200,280)
+    turtle.addshape("b_strbrrybox.gif")
+    b_strbrrybox.shape("b_strbrrybox.gif")
+    b_strbrrybox.showturtle()
+
+    b_chocobox = turtle.Turtle()
+    b_chocobox.speed(0)
+    b_chocobox.hideturtle()
+    b_chocobox.penup()
+    b_chocobox.goto(0,280)
+    turtle.addshape("b_chocobox.gif")
+    b_chocobox.shape("b_chocobox.gif")
+    b_chocobox.showturtle()
+
+    b_redvelbox = turtle.Turtle()
+    b_redvelbox.speed(0)
+    b_redvelbox.hideturtle()
+    b_redvelbox.penup()
+    b_redvelbox.goto(200,280)
+    turtle.addshape("b_redvelbox.gif")
+    b_redvelbox.shape("b_redvelbox.gif")
+    b_redvelbox.showturtle()
+
+    b_carrotbox = turtle.Turtle()
+    b_carrotbox.speed(0)
+    b_carrotbox.hideturtle()
+    b_carrotbox.penup()
+    b_carrotbox.goto(400,280)
+    turtle.addshape("b_carrotbox.gif")
+    b_carrotbox.shape("b_carrotbox.gif")
+    b_carrotbox.showturtle()  
+
+    b_vanillabox.onclick(hit_hardt3vanillabatter)
+    b_strbrrybox.onclick(hit_hardt3strwbrrybatter)
+    b_chocobox.onclick(hit_hardt3chocobatter)
+    b_redvelbox.onclick(hit_hardt3redbatter)
+    b_carrotbox.onclick(hit_hardt3carrotbatter)
+
+
+
+def hit_hardt3vanillabatter(x,y):
+    global hard_t3batter_goal, gameresult, t3batterdone
+    t3batterdone = True
+    if hard_t3batter_goal != "b_vanilla":
+        gameresult = "fail"
+    userb_vanillaturtle = turtle.Turtle()
+    userb_vanillaturtle.penup()
+    userb_vanillaturtle.hideturtle()
+    turtle.addshape("vanillabatter_tier3.gif")
+    userb_vanillaturtle.shape("vanillabatter_tier3.gif")
+    userb_vanillaturtle.showturtle()
+
+    b_vanillabox.hideturtle()
+    b_strbrrybox.hideturtle()
+    b_chocobox.hideturtle()
+    b_redvelbox.hideturtle()
+    b_carrotbox.hideturtle()
+
+    b_directions.hideturtle()
+
+    print(gameresult)
+
+    hardt2batterboxes()
+
+def hit_hardt3strwbrrybatter(x,y):
+    global hard_t3batter_goal, gameresult, t3batterdone
+    t3batterdone = True
+    if hard_t3batter_goal != "b_strbrry":
+        gameresult = "fail"
+    userb_strbrryturtle = turtle.Turtle()
+    userb_strbrryturtle.penup()
+    userb_strbrryturtle.hideturtle()
+    turtle.addshape("strbrrybatter_tier3.gif")
+    userb_strbrryturtle.shape("strbrrybatter_tier3.gif")
+    userb_strbrryturtle.showturtle()
+
+    b_vanillabox.hideturtle()
+    b_strbrrybox.hideturtle()
+    b_chocobox.hideturtle()
+    b_redvelbox.hideturtle()
+    b_carrotbox.hideturtle()
+
+    b_directions.hideturtle()
+
+    print(gameresult)
+
+    hardt2batterboxes()
+
+def hit_hardt3chocobatter(x,y):
+    global hard_t3batter_goal, gameresult, t3batterdone
+    t3batterdone = True
+    if hard_t3batter_goal != "b_choco":
+        gameresult = "fail"
+    userb_chocoturtle = turtle.Turtle()
+    userb_chocoturtle.penup()
+    userb_chocoturtle.hideturtle()
+    turtle.addshape("chocobatter_tier3.gif")
+    userb_chocoturtle.shape("chocobatter_tier3.gif")
+    userb_chocoturtle.showturtle()
+
+    b_vanillabox.hideturtle()
+    b_strbrrybox.hideturtle()
+    b_chocobox.hideturtle()
+    b_redvelbox.hideturtle()
+    b_carrotbox.hideturtle()
+
+    b_directions.hideturtle()
+
+    print(gameresult)
+
+    hardt2batterboxes()
+
+def hit_hardt3redbatter(x,y):
+    global hard_t3batter_goal, gameresult, t3batterdone
+    t3batterdone = True
+    if hard_t3batter_goal != "b_redvel":
+        gameresult = "fail"
+    userb_redvelturtle = turtle.Turtle()
+    userb_redvelturtle.penup()
+    userb_redvelturtle.hideturtle()
+    turtle.addshape("redbatter_tier3.gif")
+    userb_redvelturtle.shape("redbatter_tier3.gif")
+    userb_redvelturtle.showturtle()
+
+    b_vanillabox.hideturtle()
+    b_strbrrybox.hideturtle()
+    b_chocobox.hideturtle()
+    b_redvelbox.hideturtle()
+    b_carrotbox.hideturtle()
+
+    b_directions.hideturtle()
+
+    print(gameresult)
+
+    hardt2batterboxes()
+
+def hit_hardt3carrotbatter(x,y):
+    global medium_t3batter_goal, gameresult, t3batterdone
+    t3batterdone = True
+    if hard_t3batter_goal != "b_carrot":
+        gameresult = "fail"
+    userb_carrotturtle = turtle.Turtle()
+    userb_carrotturtle.penup()
+    userb_carrotturtle.hideturtle()
+    turtle.addshape("carrotbatter_tier3.gif")
+    userb_carrotturtle.shape("carrotbatter_tier3.gif")
+    userb_carrotturtle.showturtle()
+
+    b_vanillabox.hideturtle()
+    b_strbrrybox.hideturtle()
+    b_chocobox.hideturtle()
+    b_redvelbox.hideturtle()
+    b_carrotbox.hideturtle()
+
+    b_directions.hideturtle()
+
+    print(gameresult)
+
+    hardt2batterboxes()
+
+
+def hardt2batterboxes():
+    global b_vanillabox, b_strbrrybox, b_chocobox, b_redvelbox, b_carrotbox, b_directions
+    b_directions = turtle.Turtle()
+    b_directions.speed(0)
+    b_directions.penup()
+    b_directions.hideturtle()
+    b_directions.goto(-425,-310)
+    turtle.addshape("b_directions.gif")
+    b_directions.shape("b_directions.gif")
+    b_directions.showturtle()
+
+    # BATTER FLAVORS: 
+    batterlist = ["b_vanilla", "b_strbrry", "b_choco", "b_redvel", "b_carrot"]
+
+    b_vanillabox = turtle.Turtle()
+    b_vanillabox.speed(0)
+    b_vanillabox.hideturtle()
+    b_vanillabox.penup()
+    b_vanillabox.goto(-400,280)
+    turtle.addshape("b_vanillabox.gif")
+    b_vanillabox.shape("b_vanillabox.gif")
+    b_vanillabox.showturtle()
+
+
+    b_strbrrybox = turtle.Turtle()
+    b_strbrrybox.speed(0)
+    b_strbrrybox.hideturtle()
+    b_strbrrybox.penup()
+    b_strbrrybox.goto(-200,280)
+    turtle.addshape("b_strbrrybox.gif")
+    b_strbrrybox.shape("b_strbrrybox.gif")
+    b_strbrrybox.showturtle()
+
+    b_chocobox = turtle.Turtle()
+    b_chocobox.speed(0)
+    b_chocobox.hideturtle()
+    b_chocobox.penup()
+    b_chocobox.goto(0,280)
+    turtle.addshape("b_chocobox.gif")
+    b_chocobox.shape("b_chocobox.gif")
+    b_chocobox.showturtle()
+
+    b_redvelbox = turtle.Turtle()
+    b_redvelbox.speed(0)
+    b_redvelbox.hideturtle()
+    b_redvelbox.penup()
+    b_redvelbox.goto(200,280)
+    turtle.addshape("b_redvelbox.gif")
+    b_redvelbox.shape("b_redvelbox.gif")
+    b_redvelbox.showturtle()
+
+    b_carrotbox = turtle.Turtle()
+    b_carrotbox.speed(0)
+    b_carrotbox.hideturtle()
+    b_carrotbox.penup()
+    b_carrotbox.goto(400,280)
+    turtle.addshape("b_carrotbox.gif")
+    b_carrotbox.shape("b_carrotbox.gif")
+    b_carrotbox.showturtle()
+
+    b_vanillabox.onclick(hit_hardt2vanillabatter)
+    b_strbrrybox.onclick(hit_hardt2strwbrrybatter)
+    b_chocobox.onclick(hit_hardt2chocobatter)
+    b_redvelbox.onclick(hit_hardt2redbatter)
+    b_carrotbox.onclick(hit_hardt2carrotbatter)
+
+
+
+def hit_hardt2vanillabatter(x,y):
+    global hard_t2batter_goal, gameresult, t2batterdone
+    t2batterdone = True
+    if hard_t2batter_goal != "b_vanilla":
+        gameresult = "fail"
+    userb_vanillaturtle = turtle.Turtle()
+    userb_vanillaturtle.penup()
+    userb_vanillaturtle.hideturtle()
+    turtle.addshape("vanillabatter_tier2.gif")
+    userb_vanillaturtle.shape("vanillabatter_tier2.gif")
+    userb_vanillaturtle.showturtle()
+
+    b_vanillabox.hideturtle()
+    b_strbrrybox.hideturtle()
+    b_chocobox.hideturtle()
+    b_redvelbox.hideturtle()
+    b_carrotbox.hideturtle()
+
+    b_directions.hideturtle()
+
+    print(gameresult)
+
+    hardbatterboxes()
+
+def hit_hardt2strwbrrybatter(x,y):
+    global hard_t2batter_goal, gameresult, t2batterdone
+    t2batterdone = True
+    if hard_t2batter_goal != "b_strbrry":
+        gameresult = "fail"
+    userb_strbrryturtle = turtle.Turtle()
+    userb_strbrryturtle.penup()
+    userb_strbrryturtle.hideturtle()
+    turtle.addshape("strbrrybatter_tier2.gif")
+    userb_strbrryturtle.shape("strbrrybatter_tier2.gif")
+    userb_strbrryturtle.showturtle()
+
+    b_vanillabox.hideturtle()
+    b_strbrrybox.hideturtle()
+    b_chocobox.hideturtle()
+    b_redvelbox.hideturtle()
+    b_carrotbox.hideturtle()
+
+    b_directions.hideturtle()
+
+    print(gameresult)
+
+    hardbatterboxes()
+
+def hit_hardt2chocobatter(x,y):
+    global hard_t2batter_goal, gameresult, t2batterdone
+    t2batterdone = True
+    if hard_t2batter_goal != "b_choco":
+        gameresult = "fail"
+    userb_chocoturtle = turtle.Turtle()
+    userb_chocoturtle.penup()
+    userb_chocoturtle.hideturtle()
+    turtle.addshape("chocobatter_tier2.gif")
+    userb_chocoturtle.shape("chocobatter_tier2.gif")
+    userb_chocoturtle.showturtle()
+
+    b_vanillabox.hideturtle()
+    b_strbrrybox.hideturtle()
+    b_chocobox.hideturtle()
+    b_redvelbox.hideturtle()
+    b_carrotbox.hideturtle()
+
+    b_directions.hideturtle()
+
+    print(gameresult)
+
+    hardbatterboxes()
+
+def hit_hardt2redbatter(x,y):
+    global hard_t2batter_goal, gameresult, t2batterdone
+    t2batterdone = True
+    if hard_t2batter_goal != "b_redvel":
+        gameresult = "fail"
+    userb_redvelturtle = turtle.Turtle()
+    userb_redvelturtle.penup()
+    userb_redvelturtle.hideturtle()
+    turtle.addshape("redbatter_tier2.gif")
+    userb_redvelturtle.shape("redbatter_tier2.gif")
+    userb_redvelturtle.showturtle()
+
+    b_vanillabox.hideturtle()
+    b_strbrrybox.hideturtle()
+    b_chocobox.hideturtle()
+    b_redvelbox.hideturtle()
+    b_carrotbox.hideturtle()
+
+    b_directions.hideturtle()
+
+    print(gameresult)
+
+    hardbatterboxes()
+
+def hit_hardt2carrotbatter(x,y):
+    global hard_t2batter_goal, gameresult, t2batterdone
+    t2batterdone = True
+    if hard_t2batter_goal != "b_carrot":
+        gameresult = "fail"
+    userb_carrotturtle = turtle.Turtle()
+    userb_carrotturtle.penup()
+    userb_carrotturtle.hideturtle()
+    turtle.addshape("carrotbatter_tier2.gif")
+    userb_carrotturtle.shape("carrotbatter_tier2.gif")
+    userb_carrotturtle.showturtle()
+
+    b_vanillabox.hideturtle()
+    b_strbrrybox.hideturtle()
+    b_chocobox.hideturtle()
+    b_redvelbox.hideturtle()
+    b_carrotbox.hideturtle()
+
+    b_directions.hideturtle()
+
+    print(gameresult)
+
+    hardbatterboxes()
+
+
+
+def hit_hardvanillabatter(x,y):
+    global hard_batter_goal, gameresult, batterdone
+    batterdone = True
+    if hard_batter_goal != "b_vanilla":
+        gameresult = "fail"
+    userb_vanillaturtle = turtle.Turtle()
+    userb_vanillaturtle.penup()
+    userb_vanillaturtle.hideturtle()
+    turtle.addshape("vanillabatter.gif")
+    userb_vanillaturtle.shape("vanillabatter.gif")
+    userb_vanillaturtle.showturtle()
+
+    b_vanillabox.hideturtle()
+    b_strbrrybox.hideturtle()
+    b_chocobox.hideturtle()
+    b_redvelbox.hideturtle()
+    b_carrotbox.hideturtle()
+
+    b_directions.hideturtle()
+
+    print(gameresult)
+
+    hardfrostingboxes()
+
+def hit_hardstrwbrrybatter(x,y):
+    global hard_batter_goal, gameresult, batterdone
+    batterdone = True
+    if hard_batter_goal != "b_strbrry":
+        gameresult = "fail"
+    userb_strbrryturtle = turtle.Turtle()
+    userb_strbrryturtle.penup()
+    userb_strbrryturtle.hideturtle()
+    turtle.addshape("strwbrrybatter.gif")
+    userb_strbrryturtle.shape("strwbrrybatter.gif")
+    userb_strbrryturtle.showturtle()
+
+    b_vanillabox.hideturtle()
+    b_strbrrybox.hideturtle()
+    b_chocobox.hideturtle()
+    b_redvelbox.hideturtle()
+    b_carrotbox.hideturtle()
+
+    b_directions.hideturtle()
+
+    print(gameresult)
+
+    hardfrostingboxes()
+
+def hit_hardchocobatter(x,y):
+    global hard_batter_goal, gameresult, batterdone
+    batterdone = True
+    if hard_batter_goal != "b_choco":
+        gameresult = "fail"
+    userb_chocoturtle = turtle.Turtle()
+    userb_chocoturtle.penup()
+    userb_chocoturtle.hideturtle()
+    turtle.addshape("chocobatter.gif")
+    userb_chocoturtle.shape("chocobatter.gif")
+    userb_chocoturtle.showturtle()
+
+    b_vanillabox.hideturtle()
+    b_strbrrybox.hideturtle()
+    b_chocobox.hideturtle()
+    b_redvelbox.hideturtle()
+    b_carrotbox.hideturtle()
+
+    b_directions.hideturtle()
+
+    print(gameresult)
+
+    hardfrostingboxes()
+
+def hit_hardredbatter(x,y):
+    global hard_batter_goal, gameresult, batterdone
+    batterdone = True
+    if hard_batter_goal != "b_redvel":
+        gameresult = "fail"
+    userb_redvelturtle = turtle.Turtle()
+    userb_redvelturtle.penup()
+    userb_redvelturtle.hideturtle()
+    turtle.addshape("redbatter.gif")
+    userb_redvelturtle.shape("redbatter.gif")
+    userb_redvelturtle.showturtle()
+
+    b_vanillabox.hideturtle()
+    b_strbrrybox.hideturtle()
+    b_chocobox.hideturtle()
+    b_redvelbox.hideturtle()
+    b_carrotbox.hideturtle()
+
+    b_directions.hideturtle()
+
+    print(gameresult)
+
+    hardfrostingboxes()
+
+def hit_hardcarrotbatter(x,y):
+    global medium_batter_goal, gameresult, batterdone
+    batterdone = True
+    if hard_batter_goal != "b_carrot":
+        gameresult = "fail"
+    userb_carrotturtle = turtle.Turtle()
+    userb_carrotturtle.penup()
+    userb_carrotturtle.hideturtle()
+    turtle.addshape("carrotbatter.gif")
+    userb_carrotturtle.shape("carrotbatter.gif")
+    userb_carrotturtle.showturtle()
+
+    b_vanillabox.hideturtle()
+    b_strbrrybox.hideturtle()
+    b_chocobox.hideturtle()
+    b_redvelbox.hideturtle()
+    b_carrotbox.hideturtle()
+
+    b_directions.hideturtle()
+
+    print(gameresult)
+
+    hardfrostingboxes()
+
+
+
+def hardbatterboxes():
+    global b_vanillabox, b_strbrrybox, b_chocobox, b_redvelbox, b_carrotbox, b_directions
+    b_directions = turtle.Turtle()
+    b_directions.speed(0)
+    b_directions.penup()
+    b_directions.hideturtle()
+    b_directions.goto(-425,-310)
+    turtle.addshape("b_directions.gif")
+    b_directions.shape("b_directions.gif")
+    b_directions.showturtle()
+
+    # BATTER FLAVORS: 
+    batterlist = ["b_vanilla", "b_strbrry", "b_choco", "b_redvel", "b_carrot"]
+
+    b_vanillabox = turtle.Turtle()
+    b_vanillabox.speed(0)
+    b_vanillabox.hideturtle()
+    b_vanillabox.penup()
+    b_vanillabox.goto(-400,280)
+    turtle.addshape("b_vanillabox.gif")
+    b_vanillabox.shape("b_vanillabox.gif")
+    b_vanillabox.showturtle()
+
+
+    b_strbrrybox = turtle.Turtle()
+    b_strbrrybox.speed(0)
+    b_strbrrybox.hideturtle()
+    b_strbrrybox.penup()
+    b_strbrrybox.goto(-200,280)
+    turtle.addshape("b_strbrrybox.gif")
+    b_strbrrybox.shape("b_strbrrybox.gif")
+    b_strbrrybox.showturtle()
+
+    b_chocobox = turtle.Turtle()
+    b_chocobox.speed(0)
+    b_chocobox.hideturtle()
+    b_chocobox.penup()
+    b_chocobox.goto(0,280)
+    turtle.addshape("b_chocobox.gif")
+    b_chocobox.shape("b_chocobox.gif")
+    b_chocobox.showturtle()
+
+    b_redvelbox = turtle.Turtle()
+    b_redvelbox.speed(0)
+    b_redvelbox.hideturtle()
+    b_redvelbox.penup()
+    b_redvelbox.goto(200,280)
+    turtle.addshape("b_redvelbox.gif")
+    b_redvelbox.shape("b_redvelbox.gif")
+    b_redvelbox.showturtle()
+
+    b_carrotbox = turtle.Turtle()
+    b_carrotbox.speed(0)
+    b_carrotbox.hideturtle()
+    b_carrotbox.penup()
+    b_carrotbox.goto(400,280)
+    turtle.addshape("b_carrotbox.gif")
+    b_carrotbox.shape("b_carrotbox.gif")
+    b_carrotbox.showturtle()  
+
+    b_vanillabox.onclick(hit_hardvanillabatter)
+    b_strbrrybox.onclick(hit_hardstrwbrrybatter)
+    b_chocobox.onclick(hit_hardchocobatter)
+    b_redvelbox.onclick(hit_hardredbatter)
+    b_carrotbox.onclick(hit_hardcarrotbatter)
+
+
+
+###########################################
+
+
+# FROSTING SELECTION
+
+def easyfrostingboxes():
+    global f_vanillabox, f_strbrrybox, f_chocobox, f_pistachbox, f_directions
+    f_directions = turtle.Turtle()
+    f_directions.speed(0)
+    f_directions.penup()
+    f_directions.hideturtle()
+    f_directions.goto(-425,-310)
+    turtle.addshape("f_directions.gif")
+    f_directions.shape("f_directions.gif")
+    f_directions.showturtle()
+
+    frostinglist = ["f_vanilla", "f_strbrry", "f_choco", "f_pistach"]
+
+    f_vanillabox = turtle.Turtle()
+    f_vanillabox.speed(0)
+    f_vanillabox.hideturtle()
+    f_vanillabox.penup()
+    f_vanillabox.goto(-300,280)
+    turtle.addshape("b_vanillabox.gif")
+    f_vanillabox.shape("b_vanillabox.gif")
+    f_vanillabox.showturtle()
+
+
+    f_strbrrybox = turtle.Turtle()
+    f_strbrrybox.speed(0)
+    f_strbrrybox.hideturtle()
+    f_strbrrybox.penup()
+    f_strbrrybox.goto(-100,280)
+    turtle.addshape("b_strbrrybox.gif")
+    f_strbrrybox.shape("b_strbrrybox.gif")
+    f_strbrrybox.showturtle()
+
+    f_chocobox = turtle.Turtle()
+    f_chocobox.speed(0)
+    f_chocobox.hideturtle()
+    f_chocobox.penup()
+    f_chocobox.goto(100,280)
+    turtle.addshape("b_chocobox.gif")
+    f_chocobox.shape("b_chocobox.gif")
+    f_chocobox.showturtle()
+
+    f_pistachbox = turtle.Turtle()
+    f_pistachbox.speed(0)
+    f_pistachbox.hideturtle()
+    f_pistachbox.penup()
+    f_pistachbox.goto(300,280)
+    turtle.addshape("f_pistachbox.gif")
+    f_pistachbox.shape("f_pistachbox.gif")
+    f_pistachbox.showturtle()
+
+    f_vanillabox.onclick(hit_easyvanillafrosting)
+    f_strbrrybox.onclick(hit_easystrbrryfrosting)
+    f_chocobox.onclick(hit_easychocofrosting)
+    f_pistachbox.onclick(hit_easypistachfrosting)
+
+def hit_easyvanillafrosting(x,y):
+    global easy_frosting_goal, gameresult, frostingdone
+    frostingdone = True
+    if easy_frosting_goal != "f_vanilla":
+        gameresult = "fail"
+    userf_vanillaturtle = turtle.Turtle()
+    userf_vanillaturtle.penup()
+    userf_vanillaturtle.hideturtle()
+    turtle.addshape("vanilla_frosting.gif")
+    userf_vanillaturtle.shape("vanilla_frosting.gif")
+    userf_vanillaturtle.showturtle()
+
+    f_vanillabox.hideturtle()
+    f_strbrrybox.hideturtle()
+    f_chocobox.hideturtle()
+    f_pistachbox.hideturtle()
+
+    f_directions.hideturtle()
+
+    print(gameresult)
+
+    easytoppingboxes()
+
+def hit_easystrbrryfrosting(x,y):
+    global easy_frosting_goal, gameresult, frostingdone
+    frostingdone = True
+    if easy_frosting_goal != "f_strbrry":
+        gameresult = "fail"
+    userf_strbrryturtle = turtle.Turtle()
+    userf_strbrryturtle.penup()
+    userf_strbrryturtle.hideturtle()
+    turtle.addshape("strbrry_frosting.gif")
+    userf_strbrryturtle.shape("strbrry_frosting.gif")
+    userf_strbrryturtle.showturtle()
+
+    f_vanillabox.hideturtle()
+    f_strbrrybox.hideturtle()
+    f_chocobox.hideturtle()
+    f_pistachbox.hideturtle()
+
+    f_directions.hideturtle()
+
+    print(gameresult)
+
+    easytoppingboxes()
+
+def hit_easychocofrosting(x,y):
+    global easy_frosting_goal, gameresult, frostingdone
+    frostingdone = True
+    if easy_frosting_goal != "f_choco":
+        gameresult = "fail"
+    userf_chocoturtle = turtle.Turtle()
+    userf_chocoturtle.penup()
+    userf_chocoturtle.hideturtle()
+    turtle.addshape("choco_frosting.gif")
+    userf_chocoturtle.shape("choco_frosting.gif")
+    userf_chocoturtle.showturtle()
+
+    f_vanillabox.hideturtle()
+    f_strbrrybox.hideturtle()
+    f_chocobox.hideturtle()
+    f_pistachbox.hideturtle()
+
+    f_directions.hideturtle()
+
+    print(gameresult)
+
+    easytoppingboxes()
+
+def hit_easypistachfrosting(x,y):
+    global easy_frosting_goal, gameresult, frostingdone
+    frostingdone = True
+    if easy_frosting_goal != "f_pistach":
+        gameresult = "fail"
+    userf_pistachturtle = turtle.Turtle()
+    userf_pistachturtle.penup()
+    userf_pistachturtle.hideturtle()
+    turtle.addshape("pistach_frosting.gif")
+    userf_pistachturtle.shape("pistach_frosting.gif")
+    userf_pistachturtle.showturtle()
+
+    f_vanillabox.hideturtle()
+    f_strbrrybox.hideturtle()
+    f_chocobox.hideturtle()
+    f_pistachbox.hideturtle()
+
+    f_directions.hideturtle()
+
+    print(gameresult)
+
+    easytoppingboxes()
+
+
+
+def mediumfrostingboxes():
+    global f_vanillabox, f_strbrrybox, f_chocobox, f_pistachbox, f_directions
+    f_directions = turtle.Turtle()
+    f_directions.speed(0)
+    f_directions.penup()
+    f_directions.hideturtle()
+    f_directions.goto(-425,-310)
+    turtle.addshape("f_directions.gif")
+    f_directions.shape("f_directions.gif")
+    f_directions.showturtle()
+
+    frostinglist = ["f_vanilla", "f_strbrry", "f_choco", "f_pistach"]
+
+    f_vanillabox = turtle.Turtle()
+    f_vanillabox.speed(0)
+    f_vanillabox.hideturtle()
+    f_vanillabox.penup()
+    f_vanillabox.goto(-300,280)
+    turtle.addshape("b_vanillabox.gif")
+    f_vanillabox.shape("b_vanillabox.gif")
+    f_vanillabox.showturtle()
+
+
+    f_strbrrybox = turtle.Turtle()
+    f_strbrrybox.speed(0)
+    f_strbrrybox.hideturtle()
+    f_strbrrybox.penup()
+    f_strbrrybox.goto(-100,280)
+    turtle.addshape("b_strbrrybox.gif")
+    f_strbrrybox.shape("b_strbrrybox.gif")
+    f_strbrrybox.showturtle()
+
+    f_chocobox = turtle.Turtle()
+    f_chocobox.speed(0)
+    f_chocobox.hideturtle()
+    f_chocobox.penup()
+    f_chocobox.goto(100,280)
+    turtle.addshape("b_chocobox.gif")
+    f_chocobox.shape("b_chocobox.gif")
+    f_chocobox.showturtle()
+
+    f_pistachbox = turtle.Turtle()
+    f_pistachbox.speed(0)
+    f_pistachbox.hideturtle()
+    f_pistachbox.penup()
+    f_pistachbox.goto(300,280)
+    turtle.addshape("f_pistachbox.gif")
+    f_pistachbox.shape("f_pistachbox.gif")
+    f_pistachbox.showturtle()
+
+    f_vanillabox.onclick(hit_mediumvanillafrosting)
+    f_strbrrybox.onclick(hit_mediumstrbrryfrosting)
+    f_chocobox.onclick(hit_mediumchocofrosting)
+    f_pistachbox.onclick(hit_mediumpistachfrosting)
+
+def hit_mediumvanillafrosting(x,y):
+    global medium_frosting_goal, gameresult, frostingdone
+    frostingdone = True
+    if medium_frosting_goal != "f_vanilla":
+        gameresult = "fail"
+    userf_vanillaturtle = turtle.Turtle()
+    userf_vanillaturtle.penup()
+    userf_vanillaturtle.hideturtle()
+    turtle.addshape("vanilla_frosting.gif")
+    userf_vanillaturtle.shape("vanilla_frosting.gif")
+    userf_vanillaturtle.showturtle()
+
+    f_vanillabox.hideturtle()
+    f_strbrrybox.hideturtle()
+    f_chocobox.hideturtle()
+    f_pistachbox.hideturtle()
+
+    f_directions.hideturtle()
+
+    print(gameresult)
+
+    mediumtoppingboxes()
+
+def hit_mediumstrbrryfrosting(x,y):
+    global medium_frosting_goal, gameresult, frostingdone
+    frostingdone = True
+    if medium_frosting_goal != "f_strbrry":
+        gameresult = "fail"
+    userf_strbrryturtle = turtle.Turtle()
+    userf_strbrryturtle.penup()
+    userf_strbrryturtle.hideturtle()
+    turtle.addshape("strbrry_frosting.gif")
+    userf_strbrryturtle.shape("strbrry_frosting.gif")
+    userf_strbrryturtle.showturtle()
+
+    f_vanillabox.hideturtle()
+    f_strbrrybox.hideturtle()
+    f_chocobox.hideturtle()
+    f_pistachbox.hideturtle()
+
+    f_directions.hideturtle()
+
+    print(gameresult)
+
+    mediumtoppingboxes()
+
+def hit_mediumchocofrosting(x,y):
+    global medium_frosting_goal, gameresult, frostingdone
+    frostingdone = True
+    if medium_frosting_goal != "f_choco":
+        gameresult = "fail"
+    userf_chocoturtle = turtle.Turtle()
+    userf_chocoturtle.penup()
+    userf_chocoturtle.hideturtle()
+    turtle.addshape("choco_frosting.gif")
+    userf_chocoturtle.shape("choco_frosting.gif")
+    userf_chocoturtle.showturtle()
+
+    f_vanillabox.hideturtle()
+    f_strbrrybox.hideturtle()
+    f_chocobox.hideturtle()
+    f_pistachbox.hideturtle()
+
+    f_directions.hideturtle()
+
+    print(gameresult)
+
+    mediumtoppingboxes()
+
+def hit_mediumpistachfrosting(x,y):
+    global medium_frosting_goal, gameresult, frostingdone
+    frostingdone = True
+    if medium_frosting_goal != "f_pistach":
+        gameresult = "fail"
+    userf_pistachturtle = turtle.Turtle()
+    userf_pistachturtle.penup()
+    userf_pistachturtle.hideturtle()
+    turtle.addshape("pistach_frosting.gif")
+    userf_pistachturtle.shape("pistach_frosting.gif")
+    userf_pistachturtle.showturtle()
+
+    f_vanillabox.hideturtle()
+    f_strbrrybox.hideturtle()
+    f_chocobox.hideturtle()
+    f_pistachbox.hideturtle()
+
+    f_directions.hideturtle()
+
+    print(gameresult)
+
+    mediumtoppingboxes()
+
+
+
+def hardfrostingboxes():
+    global f_vanillabox, f_strbrrybox, f_chocobox, f_pistachbox, f_directions
+    f_directions = turtle.Turtle()
+    f_directions.speed(0)
+    f_directions.penup()
+    f_directions.hideturtle()
+    f_directions.goto(-425,-310)
+    turtle.addshape("f_directions.gif")
+    f_directions.shape("f_directions.gif")
+    f_directions.showturtle()
+
+    frostinglist = ["f_vanilla", "f_strbrry", "f_choco", "f_pistach"]
+
+    f_vanillabox = turtle.Turtle()
+    f_vanillabox.speed(0)
+    f_vanillabox.hideturtle()
+    f_vanillabox.penup()
+    f_vanillabox.goto(-300,280)
+    turtle.addshape("b_vanillabox.gif")
+    f_vanillabox.shape("b_vanillabox.gif")
+    f_vanillabox.showturtle()
+
+
+    f_strbrrybox = turtle.Turtle()
+    f_strbrrybox.speed(0)
+    f_strbrrybox.hideturtle()
+    f_strbrrybox.penup()
+    f_strbrrybox.goto(-100,280)
+    turtle.addshape("b_strbrrybox.gif")
+    f_strbrrybox.shape("b_strbrrybox.gif")
+    f_strbrrybox.showturtle()
+
+    f_chocobox = turtle.Turtle()
+    f_chocobox.speed(0)
+    f_chocobox.hideturtle()
+    f_chocobox.penup()
+    f_chocobox.goto(100,280)
+    turtle.addshape("b_chocobox.gif")
+    f_chocobox.shape("b_chocobox.gif")
+    f_chocobox.showturtle()
+
+    f_pistachbox = turtle.Turtle()
+    f_pistachbox.speed(0)
+    f_pistachbox.hideturtle()
+    f_pistachbox.penup()
+    f_pistachbox.goto(300,280)
+    turtle.addshape("f_pistachbox.gif")
+    f_pistachbox.shape("f_pistachbox.gif")
+    f_pistachbox.showturtle()
+
+    f_vanillabox.onclick(hit_hardvanillafrosting)
+    f_strbrrybox.onclick(hit_hardstrbrryfrosting)
+    f_chocobox.onclick(hit_hardchocofrosting)
+    f_pistachbox.onclick(hit_hardpistachfrosting)
+
+def hit_hardvanillafrosting(x,y):
+    global hard_frosting_goal, gameresult, frostingdone
+    frostingdone = True
+    if hard_frosting_goal != "f_vanilla":
+        gameresult = "fail"
+    userf_vanillaturtle = turtle.Turtle()
+    userf_vanillaturtle.penup()
+    userf_vanillaturtle.hideturtle()
+    turtle.addshape("vanilla_frosting.gif")
+    userf_vanillaturtle.shape("vanilla_frosting.gif")
+    userf_vanillaturtle.showturtle()
+
+    f_vanillabox.hideturtle()
+    f_strbrrybox.hideturtle()
+    f_chocobox.hideturtle()
+    f_pistachbox.hideturtle()
+
+    f_directions.hideturtle()
+
+    print(gameresult)
+
+    hardtoppingboxes()
+
+def hit_hardstrbrryfrosting(x,y):
+    global hard_frosting_goal, gameresult, frostingdone
+    frostingdone = True
+    if hard_frosting_goal != "f_strbrry":
+        gameresult = "fail"
+    userf_strbrryturtle = turtle.Turtle()
+    userf_strbrryturtle.penup()
+    userf_strbrryturtle.hideturtle()
+    turtle.addshape("strbrry_frosting.gif")
+    userf_strbrryturtle.shape("strbrry_frosting.gif")
+    userf_strbrryturtle.showturtle()
+
+    f_vanillabox.hideturtle()
+    f_strbrrybox.hideturtle()
+    f_chocobox.hideturtle()
+    f_pistachbox.hideturtle()
+
+    f_directions.hideturtle()
+
+    print(gameresult)
+
+    hardtoppingboxes()
+
+def hit_hardchocofrosting(x,y):
+    global hard_frosting_goal, gameresult, frostingdone
+    frostingdone = True
+    if hard_frosting_goal != "f_choco":
+        gameresult = "fail"
+    userf_chocoturtle = turtle.Turtle()
+    userf_chocoturtle.penup()
+    userf_chocoturtle.hideturtle()
+    turtle.addshape("choco_frosting.gif")
+    userf_chocoturtle.shape("choco_frosting.gif")
+    userf_chocoturtle.showturtle()
+
+    f_vanillabox.hideturtle()
+    f_strbrrybox.hideturtle()
+    f_chocobox.hideturtle()
+    f_pistachbox.hideturtle()
+
+    f_directions.hideturtle()
+
+    print(gameresult)
+
+    hardtoppingboxes()
+
+def hit_hardpistachfrosting(x,y):
+    global hard_frosting_goal, gameresult, frostingdone
+    frostingdone = True
+    if hard_frosting_goal != "f_pistach":
+        gameresult = "fail"
+    userf_pistachturtle = turtle.Turtle()
+    userf_pistachturtle.penup()
+    userf_pistachturtle.hideturtle()
+    turtle.addshape("pistach_frosting.gif")
+    userf_pistachturtle.shape("pistach_frosting.gif")
+    userf_pistachturtle.showturtle()
+
+    f_vanillabox.hideturtle()
+    f_strbrrybox.hideturtle()
+    f_chocobox.hideturtle()
+    f_pistachbox.hideturtle()
+
+    f_directions.hideturtle()
+
+    print(gameresult)
+
+    hardtoppingboxes()
+
+
+###########################################
+
+# TOPPING SELECTION
+
+
+def easytoppingboxes():
+    global t_rainbowbox, t_chocobox, t_strbrrybox, t_blubrrybox, t_directions
+
+    t_directions = turtle.Turtle()
+    t_directions.speed(0)
+    t_directions.penup()
+    t_directions.hideturtle()
+    t_directions.goto(-425,-310)
+    turtle.addshape("t_directions.gif")
+    t_directions.shape("t_directions.gif")
+    t_directions.showturtle()
+
+    toppinglist = ["t_rainbowspr", "t_chocochips", "t_strbrry", "t_blubrry"]
+
+    t_rainbowbox = turtle.Turtle()
+    t_rainbowbox.speed(0)
+    t_rainbowbox.hideturtle()
+    t_rainbowbox.penup()
+    t_rainbowbox.goto(-300,280)
+    turtle.addshape("t_rainbowbox.gif")
+    t_rainbowbox.shape("t_rainbowbox.gif")
+    t_rainbowbox.showturtle()
+
+    t_chocobox = turtle.Turtle()
+    t_chocobox.speed(0)
+    t_chocobox.hideturtle()
+    t_chocobox.penup()
+    t_chocobox.goto(-100,280)
+    turtle.addshape("b_chocobox.gif")
+    t_chocobox.shape("b_chocobox.gif")
+    t_chocobox.showturtle()
+
+    t_strbrrybox = turtle.Turtle()
+    t_strbrrybox.speed(0)
+    t_strbrrybox.hideturtle()
+    t_strbrrybox.penup()
+    t_strbrrybox.goto(100,280)
+    turtle.addshape("b_strbrrybox.gif")
+    t_strbrrybox.shape("b_strbrrybox.gif")
+    t_strbrrybox.showturtle()
+
+    t_blubrrybox = turtle.Turtle()
+    t_blubrrybox.speed(0)
+    t_blubrrybox.hideturtle()
+    t_blubrrybox.penup()
+    t_blubrrybox.goto(300,280)
+    turtle.addshape("t_blubrrybox.gif")
+    t_blubrrybox.shape("t_blubrrybox.gif")
+    t_blubrrybox.showturtle()
+
+    t_rainbowbox.onclick(hit_easyrainbowtopping)
+    t_chocobox.onclick(hit_easychocotopping)
+    t_strbrrybox.onclick(hit_easystrbrrytopping)
+    t_blubrrybox.onclick(hit_easyblubrrytopping)
+
+def hit_easyrainbowtopping(x,y):
+    global easy_topping_goal, gameresult, toppingdone
+    toppingdone = True
+    if easy_topping_goal != "t_rainbowspr":
+        gameresult = "fail"
+    usert_rainbowturtle = turtle.Turtle()
+    usert_rainbowturtle.penup()
+    usert_rainbowturtle.hideturtle()
+    turtle.addshape("rainbowspr_topping.gif")
+    usert_rainbowturtle.shape("rainbowspr_topping.gif")
+    usert_rainbowturtle.showturtle()
+
+    t_rainbowbox.hideturtle()
+    t_chocobox.hideturtle()
+    t_strbrrybox.hideturtle()
+    t_blubrrybox.hideturtle()
+
+    t_directions.hideturtle()
+
+    print(gameresult)
+
+    if gameresult == "fail":
+        result_screen()
+    elif gameresult == "success":
+        easy_success_screen()
+
+def hit_easychocotopping(x,y):
+    global easy_topping_goal, gameresult, toppingdone
+    toppingdone = True
+    if easy_topping_goal != "t_chocochips":
+        gameresult = "fail"
+    usert_chocoturtle = turtle.Turtle()
+    usert_chocoturtle.penup()
+    usert_chocoturtle.hideturtle()
+    turtle.addshape("chocochips_topping.gif")
+    usert_chocoturtle.shape("chocochips_topping.gif")
+    usert_chocoturtle.showturtle()
+
+    t_rainbowbox.hideturtle()
+    t_chocobox.hideturtle()
+    t_strbrrybox.hideturtle()
+    t_blubrrybox.hideturtle()
+
+    t_directions.hideturtle()
+
+    print(gameresult)
+
+    if gameresult == "fail":
+        result_screen()
+    elif gameresult == "success":
+        easy_success_screen()
+
+def hit_easystrbrrytopping(x,y):
+    global easy_topping_goal, gameresult, toppingdone
+    toppingdone = True
+    if easy_topping_goal != "t_strbrry":
+        gameresult = "fail"
+    usert_strbrryturtle = turtle.Turtle()
+    usert_strbrryturtle.penup()
+    usert_strbrryturtle.hideturtle()
+    turtle.addshape("strbrry_topping.gif")
+    usert_strbrryturtle.shape("strbrry_topping.gif")
+    usert_strbrryturtle.showturtle()
+
+    t_rainbowbox.hideturtle()
+    t_chocobox.hideturtle()
+    t_strbrrybox.hideturtle()
+    t_blubrrybox.hideturtle()
+
+    t_directions.hideturtle()
+
+    print(gameresult)
+
+    if gameresult == "fail":
+        result_screen()
+    elif gameresult == "success":
+        easy_success_screen()
+
+def hit_easyblubrrytopping(x,y):
+    global easy_topping_goal, gameresult, toppingdone
+    toppingdone = True
+    if easy_topping_goal != "t_blubrry":
+        gameresult = "fail"
+    usert_blubrryturtle = turtle.Turtle()
+    usert_blubrryturtle.penup()
+    usert_blubrryturtle.hideturtle()
+    turtle.addshape("blubrry_topping.gif")
+    usert_blubrryturtle.shape("blubrry_topping.gif")
+    usert_blubrryturtle.showturtle()
+
+    t_rainbowbox.hideturtle()
+    t_chocobox.hideturtle()
+    t_strbrrybox.hideturtle()
+    t_blubrrybox.hideturtle()
+
+    t_directions.hideturtle()
+
+    print(gameresult)
+
+    if gameresult == "fail":
+        result_screen()
+    elif gameresult == "success":
+        easy_success_screen()
+
+
+
+def mediumtoppingboxes():
+    global t_rainbowbox, t_chocobox, t_strbrrybox, t_blubrrybox, t_directions
+
+    t_directions = turtle.Turtle()
+    t_directions.speed(0)
+    t_directions.penup()
+    t_directions.hideturtle()
+    t_directions.goto(-425,-310)
+    turtle.addshape("t_directions.gif")
+    t_directions.shape("t_directions.gif")
+    t_directions.showturtle()
+
+    toppinglist = ["t_rainbowspr", "t_chocochips", "t_strbrry", "t_blubrry"]
+
+    t_rainbowbox = turtle.Turtle()
+    t_rainbowbox.speed(0)
+    t_rainbowbox.hideturtle()
+    t_rainbowbox.penup()
+    t_rainbowbox.goto(-300,280)
+    turtle.addshape("t_rainbowbox.gif")
+    t_rainbowbox.shape("t_rainbowbox.gif")
+    t_rainbowbox.showturtle()
+
+    t_chocobox = turtle.Turtle()
+    t_chocobox.speed(0)
+    t_chocobox.hideturtle()
+    t_chocobox.penup()
+    t_chocobox.goto(-100,280)
+    turtle.addshape("b_chocobox.gif")
+    t_chocobox.shape("b_chocobox.gif")
+    t_chocobox.showturtle()
+
+    t_strbrrybox = turtle.Turtle()
+    t_strbrrybox.speed(0)
+    t_strbrrybox.hideturtle()
+    t_strbrrybox.penup()
+    t_strbrrybox.goto(100,280)
+    turtle.addshape("b_strbrrybox.gif")
+    t_strbrrybox.shape("b_strbrrybox.gif")
+    t_strbrrybox.showturtle()
+
+    t_blubrrybox = turtle.Turtle()
+    t_blubrrybox.speed(0)
+    t_blubrrybox.hideturtle()
+    t_blubrrybox.penup()
+    t_blubrrybox.goto(300,280)
+    turtle.addshape("t_blubrrybox.gif")
+    t_blubrrybox.shape("t_blubrrybox.gif")
+    t_blubrrybox.showturtle()
+
+    t_rainbowbox.onclick(hit_mediumrainbowtopping)
+    t_chocobox.onclick(hit_mediumchocotopping)
+    t_strbrrybox.onclick(hit_mediumstrbrrytopping)
+    t_blubrrybox.onclick(hit_mediumblubrrytopping)
+
+def hit_mediumrainbowtopping(x,y):
+    global medium_topping_goal, gameresult, toppingdone
+    toppingdone = True
+    if medium_topping_goal != "t_rainbowspr":
+        gameresult = "fail"
+    usert_rainbowturtle = turtle.Turtle()
+    usert_rainbowturtle.penup()
+    usert_rainbowturtle.hideturtle()
+    turtle.addshape("rainbowspr_topping.gif")
+    usert_rainbowturtle.shape("rainbowspr_topping.gif")
+    usert_rainbowturtle.showturtle()
+
+    t_rainbowbox.hideturtle()
+    t_chocobox.hideturtle()
+    t_strbrrybox.hideturtle()
+    t_blubrrybox.hideturtle()
+
+    t_directions.hideturtle()
+
+    print(gameresult)
+
+    if gameresult == "fail":
+        result_screen()
+    elif gameresult == "success":
+        medium_success_screen()
+
+def hit_mediumchocotopping(x,y):
+    global medium_topping_goal, gameresult, toppingdone
+    toppingdone = True
+    if medium_topping_goal != "t_chocochips":
+        gameresult = "fail"
+    usert_chocoturtle = turtle.Turtle()
+    usert_chocoturtle.penup()
+    usert_chocoturtle.hideturtle()
+    turtle.addshape("chocochips_topping.gif")
+    usert_chocoturtle.shape("chocochips_topping.gif")
+    usert_chocoturtle.showturtle()
+
+    t_rainbowbox.hideturtle()
+    t_chocobox.hideturtle()
+    t_strbrrybox.hideturtle()
+    t_blubrrybox.hideturtle()
+
+    t_directions.hideturtle()
+
+    print(gameresult)
+
+    if gameresult == "fail":
+        result_screen()
+    elif gameresult == "success":
+        medium_success_screen()
+
+def hit_mediumstrbrrytopping(x,y):
+    global medium_topping_goal, gameresult, toppingdone
+    toppingdone = True
+    if medium_topping_goal != "t_strbrry":
+        gameresult = "fail"
+    usert_strbrryturtle = turtle.Turtle()
+    usert_strbrryturtle.penup()
+    usert_strbrryturtle.hideturtle()
+    turtle.addshape("strbrry_topping.gif")
+    usert_strbrryturtle.shape("strbrry_topping.gif")
+    usert_strbrryturtle.showturtle()
+
+    t_rainbowbox.hideturtle()
+    t_chocobox.hideturtle()
+    t_strbrrybox.hideturtle()
+    t_blubrrybox.hideturtle()
+
+    t_directions.hideturtle()
+
+    print(gameresult)
+
+    if gameresult == "fail":
+        result_screen()
+    elif gameresult == "success":
+        medium_success_screen()
+
+def hit_mediumblubrrytopping(x,y):
+    global medium_topping_goal, gameresult, toppingdone
+    toppingdone = True
+    if medium_topping_goal != "t_blubrry":
+        gameresult = "fail"
+    usert_blubrryturtle = turtle.Turtle()
+    usert_blubrryturtle.penup()
+    usert_blubrryturtle.hideturtle()
+    turtle.addshape("blubrry_topping.gif")
+    usert_blubrryturtle.shape("blubrry_topping.gif")
+    usert_blubrryturtle.showturtle()
+
+    t_rainbowbox.hideturtle()
+    t_chocobox.hideturtle()
+    t_strbrrybox.hideturtle()
+    t_blubrrybox.hideturtle()
+
+    t_directions.hideturtle()
+
+    print(gameresult)
+
+    if gameresult == "fail":
+        result_screen()
+    elif gameresult == "success":
+        medium_success_screen()
+
+
+
+def hardtoppingboxes():
+    global t_rainbowbox, t_chocobox, t_strbrrybox, t_blubrrybox, t_directions
+
+    t_directions = turtle.Turtle()
+    t_directions.speed(0)
+    t_directions.penup()
+    t_directions.hideturtle()
+    t_directions.goto(-425,-310)
+    turtle.addshape("t_directions.gif")
+    t_directions.shape("t_directions.gif")
+    t_directions.showturtle()
+
+    toppinglist = ["t_rainbowspr", "t_chocochips", "t_strbrry", "t_blubrry"]
+
+    t_rainbowbox = turtle.Turtle()
+    t_rainbowbox.speed(0)
+    t_rainbowbox.hideturtle()
+    t_rainbowbox.penup()
+    t_rainbowbox.goto(-300,280)
+    turtle.addshape("t_rainbowbox.gif")
+    t_rainbowbox.shape("t_rainbowbox.gif")
+    t_rainbowbox.showturtle()
+
+    t_chocobox = turtle.Turtle()
+    t_chocobox.speed(0)
+    t_chocobox.hideturtle()
+    t_chocobox.penup()
+    t_chocobox.goto(-100,280)
+    turtle.addshape("b_chocobox.gif")
+    t_chocobox.shape("b_chocobox.gif")
+    t_chocobox.showturtle()
+
+    t_strbrrybox = turtle.Turtle()
+    t_strbrrybox.speed(0)
+    t_strbrrybox.hideturtle()
+    t_strbrrybox.penup()
+    t_strbrrybox.goto(100,280)
+    turtle.addshape("b_strbrrybox.gif")
+    t_strbrrybox.shape("b_strbrrybox.gif")
+    t_strbrrybox.showturtle()
+
+    t_blubrrybox = turtle.Turtle()
+    t_blubrrybox.speed(0)
+    t_blubrrybox.hideturtle()
+    t_blubrrybox.penup()
+    t_blubrrybox.goto(300,280)
+    turtle.addshape("t_blubrrybox.gif")
+    t_blubrrybox.shape("t_blubrrybox.gif")
+    t_blubrrybox.showturtle()
+
+    t_rainbowbox.onclick(hit_hardrainbowtopping)
+    t_chocobox.onclick(hit_hardchocotopping)
+    t_strbrrybox.onclick(hit_hardstrbrrytopping)
+    t_blubrrybox.onclick(hit_hardblubrrytopping)
+
+def hit_hardrainbowtopping(x,y):
+    global hard_topping_goal, gameresult, toppingdone
+    toppingdone = True
+    if hard_topping_goal != "t_rainbowspr":
+        gameresult = "fail"
+    usert_rainbowturtle = turtle.Turtle()
+    usert_rainbowturtle.penup()
+    usert_rainbowturtle.hideturtle()
+    turtle.addshape("rainbowspr_topping.gif")
+    usert_rainbowturtle.shape("rainbowspr_topping.gif")
+    usert_rainbowturtle.showturtle()
+
+    t_rainbowbox.hideturtle()
+    t_chocobox.hideturtle()
+    t_strbrrybox.hideturtle()
+    t_blubrrybox.hideturtle()
+
+    t_directions.hideturtle()
+
+    print(gameresult)
+
+    if gameresult == "fail":
+        result_screen()
+    elif gameresult == "success":
+        hard_success_screen()
+
+def hit_hardchocotopping(x,y):
+    global hard_topping_goal, gameresult, toppingdone
+    toppingdone = True
+    if hard_topping_goal != "t_chocochips":
+        gameresult = "fail"
+    usert_chocoturtle = turtle.Turtle()
+    usert_chocoturtle.penup()
+    usert_chocoturtle.hideturtle()
+    turtle.addshape("chocochips_topping.gif")
+    usert_chocoturtle.shape("chocochips_topping.gif")
+    usert_chocoturtle.showturtle()
+
+    t_rainbowbox.hideturtle()
+    t_chocobox.hideturtle()
+    t_strbrrybox.hideturtle()
+    t_blubrrybox.hideturtle()
+
+    t_directions.hideturtle()
+
+    print(gameresult)
+
+    if gameresult == "fail":
+        result_screen()
+    elif gameresult == "success":
+        hard_success_screen()
+
+def hit_hardstrbrrytopping(x,y):
+    global hard_topping_goal, gameresult, toppingdone
+    toppingdone = True
+    if hard_topping_goal != "t_strbrry":
+        gameresult = "fail"
+    usert_strbrryturtle = turtle.Turtle()
+    usert_strbrryturtle.penup()
+    usert_strbrryturtle.hideturtle()
+    turtle.addshape("strbrry_topping.gif")
+    usert_strbrryturtle.shape("strbrry_topping.gif")
+    usert_strbrryturtle.showturtle()
+
+    t_rainbowbox.hideturtle()
+    t_chocobox.hideturtle()
+    t_strbrrybox.hideturtle()
+    t_blubrrybox.hideturtle()
+
+    t_directions.hideturtle()
+
+    print(gameresult)
+
+    if gameresult == "fail":
+        result_screen()
+    elif gameresult == "success":
+        hard_success_screen()
+
+def hit_hardblubrrytopping(x,y):
+    global hard_topping_goal, gameresult, toppingdone
+    toppingdone = True
+    if hard_topping_goal != "t_blubrry":
+        gameresult = "fail"
+    usert_blubrryturtle = turtle.Turtle()
+    usert_blubrryturtle.penup()
+    usert_blubrryturtle.hideturtle()
+    turtle.addshape("blubrry_topping.gif")
+    usert_blubrryturtle.shape("blubrry_topping.gif")
+    usert_blubrryturtle.showturtle()
+
+    t_rainbowbox.hideturtle()
+    t_chocobox.hideturtle()
+    t_strbrrybox.hideturtle()
+    t_blubrrybox.hideturtle()
+
+    t_directions.hideturtle()
+
+    print(gameresult)
+
+    if gameresult == "fail":
+        result_screen()
+    elif gameresult == "success":
+        hard_success_screen()
+
+def result_screen(): 
+    global batter_goal, frosting_goal, topping_goal
+    welcomebg.bgcolor("black")
+    gamestart.hideturtle()
+
+    result_turtle = turtle.Turtle()
+    result_turtle.hideturtle()
+
+    result_turtle.penup()
+    result_turtle.goto(0,100)
+
+    result_turtle.color("white")
+    result_turtle.showturtle()
+
+    print("Fail screen!")
+    # if userbatter == batter_goal:
+    #     print("batter matches!")
+    # else:
+    #     print("mismatched batter, Fail.")
+
+    # if frosting_goal == t2batter_goal:
+    #     print("Frosting matches!")
+    # else:
+    #     print("mismatched frosting, Fail.")
+
+    # if topping_goal == t3batter_goal:
+    #     print("Topping matches!")
+    # else:
+    #     print("mismatched topping, Fail.")
+
+    # if user_batter == batter_goal and frosting_goal == t2batter_goal and topping_goal == t3batter_goal:
+    #     print("Suceess!! You win!")
+    # else:
+    #     print("Did not match. Try again.")
+
+
+
+def easy_success_screen():
+    global timeturtle, gamestart
+    welcomebg.bgcolor("black")
+
+    gamestart.hideturtle()
+
+
+    success_screen = turtle.Screen()
+    success_screen.setup(width=800, height=600)
+
+    bgturtle = turtle.Turtle()
+    turtle.addshape('successscreen.gif')
+    
+    bgturtle.shape('successscreen.gif')
+    bgturtle.penup()
+    bgturtle.hideturtle()
+    bgturtle.goto(0,0)
+    bgturtle.showturtle()
+
+
+    add_text = turtle.Turtle()
+    add_text.hideturtle()
+    add_text.penup()
+    add_text.color('white')
+    add_text.speed(10)
+    add_text.goto(0,150)
+    add_text.write("Congratulations! You won!", align= 'center',font=("Times New Roman", 40, "bold"))
+
+    # restart = turtle.Turtle()
+    # restart.hideturtle()
+    # restart.penup()
+    # turtle.addshape('retrybut.gif')
+    # restart.shape('retrybut.gif')
+    # restart.goto(200,-300)
+    # restart.showturtle()
+
+    # quit = turtle.Turtle()
+    # quit.hideturtle()
+    # quit.penup()
+    # turtle.addshape('nextlevelbut.gif')
+    # quit.shape('nextlevelbut.gif')
+    # quit.goto(-200,-300)
+    # quit.showturtle()
+    # turtle.done()
+
+    randomeasy()
+
+def medium_success_screen():
+    global timeturtle, gamestart
+    welcomebg.bgcolor("black")
+
+    gamestart.hideturtle()
+
+
+    success_screen = turtle.Screen()
+    success_screen.setup(width=800, height=600)
+
+    bgturtle = turtle.Turtle()
+    turtle.addshape('successscreen.gif')
+    bgturtle.shape('successscreen.gif')
+    bgturtle.penup()
+    bgturtle.hideturtle()
+    bgturtle.goto(0,0)
+    bgturtle.showturtle()
+
+
+    add_text = turtle.Turtle()
+    add_text.hideturtle()
+    add_text.penup()
+    add_text.color('white')
+    add_text.speed(10)
+    add_text.goto(0,150)
+    add_text.write("Congratulations! You won!", align= 'center',font=("Times New Roman", 40, "bold"))
+
+    randommedium()
+    # restart = turtle.Turtle()
+    # restart.hideturtle()
+    # restart.penup()
+    # turtle.addshape('retrybut.gif')
+    # restart.shape('retrybut.gif')
+    # restart.goto(200,-300)
+    # restart.showturtle()
+
+    # quit = turtle.Turtle()
+    # quit.hideturtle()
+    # quit.penup()
+    # turtle.addshape('nextlevelbut.gif')
+    # quit.shape('nextlevelbut.gif')
+    # quit.goto(-200,-300)
+    # quit.showturtle()
+    # turtle.done()
+
+def hard_success_screen():
+    global timeturtle, gamestart
+    welcomebg.bgcolor("black")
+
+    gamestart.hideturtle()
+
+
+    success_screen = turtle.Screen()
+    success_screen.setup(width=800, height=600)
+
+    bgturtle = turtle.Turtle()
+    turtle.addshape('successscreen.gif')
+    bgturtle.shape('successscreen.gif')
+    bgturtle.penup()
+    bgturtle.hideturtle()
+    bgturtle.goto(0,0)
+    bgturtle.showturtle()
+
+
+    # add_text = turtle.Turtle()
+    # add_text.hideturtle()
+    # add_text.penup()
+    # add_text.color('white')
+    # add_text.speed(10)
+    # add_text.goto(0,150)
+    # add_text.write("Congratulations! You won!", align= 'center',font=("Times New Roman", 40, "bold"))
+
+    # restart = turtle.Turtle()
+    # restart.hideturtle()
+    # restart.penup()
+    # turtle.addshape('retrybut.gif')
+    # restart.shape('retrybut.gif')
+    # restart.goto(200,-300)
+    # restart.showturtle()
+
+    # quit = turtle.Turtle()
+    # quit.hideturtle()
+    # quit.penup()
+    # turtle.addshape('nextlevelbut.gif')
+    # quit.shape('nextlevelbut.gif')
+    # quit.goto(-200,-300)
+    # quit.showturtle()
+    # turtle.done()
+
+    randomhard()
+###########################################
+
+def result_screen():
+
+    screen = turtle.Screen()
+    screen.setup(width=800, height=600)
+
+    bgturtle = turtle.Turtle()
+    turtle.addshape("cyanwhite.gif")
+    bgturtle.shape("cyanwhite.gif")
+    bgturtle.penup()
+    bgturtle.goto(0, 0)
+
+    chalkboard = turtle.Turtle()
+    turtle.addshape("chalkboard.gif")
+    chalkboard.shape("chalkboard.gif")
+    chalkboard.penup()
+    chalkboard.goto(0, 0)
+    add_text = turtle.Turtle()
+    add_text.hideturtle()
+    add_text.penup()
+    add_text.color("white")
+    add_text.goto(0, 150)
+    add_text.write("Level failed! Please try again.", align='center', font=("Times New Roman", 30, "bold"))
+
+    
+
+    baker = turtle.Turtle()
+    baker.penup()
+    turtle.addshape("baker.gif")
+    baker.shape("baker.gif")
+    baker.goto(290, 180)
+
+
+  
+
+    screen.mainloop()
+
+
+def easy():
+    welcomebg.bgcolor("lightskyblue")
+
+def medium():
+    welcomebg.bgcolor("lightgoldenrodyellow")
+
+def hard():
+    welcomebg.bgcolor("plum1")
+
+###########################################
+
+# MAIN:
+welcome()
+
+startclicker.onclick(hitstart)
+endclicker.onclick(hitend)
+turtle.done()
